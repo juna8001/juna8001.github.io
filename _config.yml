@@ -1,0 +1,31 @@
+# Site settings
+title: "My Portfolio"
+description: "Showcasing my projects, games, and blog"
+baseurl: ""      # leave empty for GitHub Pages at username.github.io
+url: "https://juna8001.github.io"  # replace with your URL
+
+# Theme
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections / directories
+collections: []
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Permalinks
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
