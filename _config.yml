@@ -27,3 +27,14 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
+# Theme
+theme: minima
+# remote_theme: "jekyll/minima@1e8a445"
+
+minima:
+  skin: dark
+  nav_pages:
+    - index.md
+    - about.md
+    - blog.md
