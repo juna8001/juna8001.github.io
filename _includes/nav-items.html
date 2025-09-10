@@ -1,0 +1,23 @@
+<header>
+  <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+  <a href="{{ '/about.html' | relative_url }}" class="nav-link {% if page.url == '/about.html' %}active{% endif %}">About</a>
+  <a href="{{ '/blog.html' | relative_url }}" class="nav-link {% if page.url == '/blog.html' %}active{% endif %}">Blog</a>
+</header>
+
+<style>
+.nav-link {
+  text-decoration: none;
+  color: #555;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: #eee;
+  margin-right: 5px;
+}
+.nav-link.active {
+  font-weight: bold;
+  background: #ccc;
+}
+.nav-link:hover {
+  background: #ddd;
+}
+</style>
