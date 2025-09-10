@@ -6,7 +6,7 @@ url: "https://juna8001.github.io"  # replace with your URL
 
 # Theme
 # theme: midnight
-remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: "jekyll/minima@1e8a445"
 
 # Plugins
 plugins:
