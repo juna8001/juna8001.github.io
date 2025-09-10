@@ -10,6 +10,10 @@ theme: minima
 
 minima:
   skin: dark
+  nav_pages:
+    - index.md
+    - about.md
+    - blog.md
 
 # Plugins
 plugins:
