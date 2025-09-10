@@ -5,13 +5,14 @@ title: "Blog"
 
 # Blog
 
-[Home](./index.md) | [About](./about.md)
+<p>Welcome to my blog! Here are my latest posts:</p>
 
 <ul>
 {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+  <li style="margin-bottom: 15px;">
+    <a href="{{ post.url }}" style="font-weight: bold; font-size: 1.1em; color: #222;">{{ post.title }}</a><br>
+    <small style="color: #666;">{{ post.date | date: "%b %-d, %Y" }}</small>
+    <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
   </li>
 {% endfor %}
 </ul>
