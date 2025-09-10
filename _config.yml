@@ -8,6 +8,9 @@ url: "https://juna8001.github.io"  # replace with your URL
 theme: minima
 # remote_theme: "jekyll/minima@1e8a445"
 
+minima:
+  skin: dark
+
 # Plugins
 plugins:
   - jekyll-feed
