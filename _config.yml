@@ -4,17 +4,6 @@ description: "Showcasing my projects, games, and blog"
 baseurl: ""      # leave empty for GitHub Pages at username.github.io
 url: "https://juna8001.github.io"  # replace with your URL
 
-# Theme
-theme: minima
-# remote_theme: "jekyll/minima@1e8a445"
-
-minima:
-  skin: dark
-  nav_pages:
-    - index.md
-    - about.md
-    - blog.md
-
 # Plugins
 plugins:
   - jekyll-feed
