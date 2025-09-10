@@ -5,8 +5,8 @@ baseurl: ""      # leave empty for GitHub Pages at username.github.io
 url: "https://juna8001.github.io"  # replace with your URL
 
 # Theme
-# theme: minima
-remote_theme: "jekyll/minima@1e8a445"
+theme: minima
+# remote_theme: "jekyll/minima@1e8a445"
 
 minima:
   skin: dark
