@@ -3,6 +3,8 @@ layout: default
 title: "Blog"
 ---
 
+{% include navbar.html %}
+
 # Blog
 
 <p>Welcome to my blog! Here are my latest posts:</p>
