@@ -15,8 +15,7 @@ nav.site-nav a {
   font-weight: bold;
 
   background: var(--content-color);
-  outline: 2px solid var(--main-alt-color);
-  outline-offset: 2px;
+border: 2px solid var(--content-color-hover);
 
   padding: 0.2em 0.8em;
   border-radius: 4px;
