@@ -1,4 +1,10 @@
-/* Add styles for header, nav, and main */
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
 header.site-header {
   background: #405346;
   color: #fff;
