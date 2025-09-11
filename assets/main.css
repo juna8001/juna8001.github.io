@@ -1,0 +1,21 @@
+/* Add styles for header, nav, and main */
+header.site-header {
+  background: #405346;
+  color: #fff;
+  padding: 1em 0;
+}
+nav.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+nav.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+main.site-main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 0 1em;
+}

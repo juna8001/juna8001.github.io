@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 </head>
 <body>
-  <header style="background:#222; color:#fff; padding:1em 0;">
-    <nav style="display:flex; justify-content:center; gap:2em;">
-      <a href="{{ '/' | relative_url }}" style="color:#fff; text-decoration:none; font-weight:bold;">HOME</a>
-      <a href="{{ '/about/' | relative_url }}" style="color:#fff; text-decoration:none; font-weight:bold;">ABOUT</a>
-      <a href="{{ '/blog/' | relative_url }}" style="color:#fff; text-decoration:none; font-weight:bold;">BLOG</a>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">HOME</a>
+      <a href="{{ '/about/' | relative_url }}">ABOUT</a>
+      <a href="{{ '/blog/' | relative_url }}">BLOG</a>
     </nav>
   </header>
-  <main style="max-width:800px; margin:2em auto; padding:0 1em;">
+  <main class="site-main">
     {{ content }}
   </main>
 </body>
