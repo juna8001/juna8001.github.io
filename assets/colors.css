@@ -1,10 +1,10 @@
 /* Color variables for body, header, and footer */
 :root {
-  --body-bg: #FF6B01;
-  --body-text: #FFFFFF;
+  --body-bg: #FFFFFF;
+  --body-text: #353535;
 
-  --header-bg: #FFFFFF;
-  --header-text: #353535;
+  --header-bg: #FF6B01;
+  --header-text: #FFFFFF;
 
   --footer-bg: #353535;
   --footer-text: #FFFFFF;
