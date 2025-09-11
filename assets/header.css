@@ -14,7 +14,8 @@ nav.site-nav a {
   text-decoration: none;
   font-weight: bold;
 
-  outline: 2px solid var(--content-color);
+  background: var(--content-color);
+  outline: 2px solid var(--main-alt-color);
   outline-offset: 2px;
 
   padding: 0.2em 0.8em;
