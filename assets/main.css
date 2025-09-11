@@ -16,7 +16,9 @@ body{
   background: var(--body-bg);
   color: var(--body-text);
 }
+
 main.site-main {
+  width: 90vw;
   max-width: 800px;
   margin: 2em auto;
   padding: 0 1em;

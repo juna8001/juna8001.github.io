@@ -6,7 +6,7 @@ header.site-header {
 nav.site-nav {
   display: flex;
   justify-content: center;
-  gap: 2em;
+  gap: 4em;
 }
 nav.site-nav a {
   color: var(--header-text);
@@ -14,6 +14,6 @@ nav.site-nav a {
   font-weight: bold;
 }
 nav.site-nav a.active {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
 }
