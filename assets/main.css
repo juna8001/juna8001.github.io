@@ -1,13 +1,15 @@
+@import url('colors.css');
+
 body{
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: var(--body-bg);
 }
 header.site-header {
-  background: #405346;
-  color: #fff;
+  background: var(--header-bg);
+  color: var(--header-text);
   padding: 1em 0;
 }
 nav.site-nav {
@@ -16,7 +18,7 @@ nav.site-nav {
   gap: 2em;
 }
 nav.site-nav a {
-  color: #fff;
+  color: var(--color-link);
   text-decoration: none;
   font-weight: bold;
 }
@@ -24,4 +26,12 @@ main.site-main {
   max-width: 800px;
   margin: 2em auto;
   padding: 0 1em;
+}
+.footer-scheme {
+  background: var(----footer-bg);
+  color: var(--footer-text);
+}
+.site-footer {
+  padding: 1em 0;
+  text-align: center;
 }

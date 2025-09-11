@@ -1,0 +1,11 @@
+/* Color variables for body, header, and footer */
+:root {
+  --body-bg: #9fe973;
+  --body-text: #114e28;
+
+  --header-bg: #a79c0d;
+  --header-text: #f5ca99;
+
+  --footer-bg: #431579;
+  --footer-text: #d1b3da;
+}

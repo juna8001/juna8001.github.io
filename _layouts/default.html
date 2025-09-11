@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-</head>
+
+    {% include head.html %}
 <body>
-  <header class="site-header">
-    <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}">HOME</a>
-      <a href="{{ '/about/' | relative_url }}">ABOUT</a>
-      <a href="{{ '/blog/' | relative_url }}">BLOG</a>
-    </nav>
-  </header>
+  
+    {% include header.html %}
+
   <main class="site-main">
     {{ content }}
   </main>
+
+
+    {% include footer.html %}
+
 </body>
 </html>
