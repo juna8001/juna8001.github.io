@@ -1,11 +1,16 @@
 /* Color variables for body, header, and footer */
 :root {
-  --body-bg: #FFFFFF;
-  --body-text: #353535;
 
-  --header-bg: #FF6B01;
-  --header-text: #FFFFFF;
+    --main-color: #FFFFFF;
+    --content-color: #353535;
+    --acent-color: #FF6B01;
 
-  --footer-bg: #353535;
-  --footer-text: #FFFFFF;
+  --body-bg: var(--main-color);
+  --body-text: var(--content-color);
+
+  --header-bg: var(--acent-color);
+  --header-text: var(--main-color);
+
+  --footer-bg: var(--content-color);
+  --footer-text: var(--main-color);
 }

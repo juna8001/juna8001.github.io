@@ -2,12 +2,17 @@ header.site-header {
   background: var(--header-bg);
   color: var(--header-text);
   padding: 1em 0;
+
+  border-bottom: 2px;
+  border-bottom-color: var(--content-color);
 }
 nav.site-nav {
   display: flex;
   justify-content: center;
   gap: 4em;
   font-family: var(--reckoner);
+  outline-color: var(--content-color);
+  outline: 1px solid;
 }
 nav.site-nav a {
   color: var(--header-text);
