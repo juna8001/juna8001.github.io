@@ -27,7 +27,7 @@ nav.site-nav a {
 
 
     padding: 0.2em 0.8em;
-    border-radius: 8px;
+    border-radius: 12px;
     transition: outline-color 0.2s;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@ nav.site-nav a {
 
     background: var(--content-color);
     border: 2px solid var(--content-color-hover);
-    width: 110px;
+    width: 120px;
     height: 40px;
     line-height: 1;
     overflow: hidden;
@@ -47,4 +47,5 @@ nav.site-nav a.active {
     height: 40px;
     width: 120px;
     background: var(--content-color-hover);
+    border-color: var(--content-color);
 }
