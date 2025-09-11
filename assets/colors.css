@@ -5,6 +5,10 @@
     --content-color: #353535;
     --acent-color: #FF6B01;
 
+    --main-alt-color: #808F87;
+    --content-alt-color: #18A999;
+    --acent-alt-color: #F0C808;
+
   --body-bg: var(--main-color);
   --body-text: var(--content-color);
 

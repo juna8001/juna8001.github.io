@@ -2,24 +2,25 @@ header.site-header {
   background: var(--header-bg);
   color: var(--header-text);
   padding: 1em 0;
-
-  border-bottom: 2px;
-  border-bottom-color: var(--content-color);
+  border-bottom: 3px solid var(--content-color);
 }
 nav.site-nav {
   display: flex;
   justify-content: center;
-  gap: 4em;
-  font-family: var(--reckoner);
-  outline-color: var(--content-color);
-  outline: 1px solid;
+  gap: 2em;
 }
 nav.site-nav a {
   color: var(--header-text);
   text-decoration: none;
-  font-family: var(--reckoner_bold);
+  font-weight: bold;
+
+  outline: 2px solid var(--content-color);
+  outline-offset: 2px;
+
+  padding: 0.2em 0.8em;
+  border-radius: 4px;
+  transition: outline-color 0.2s;
 }
 nav.site-nav a.active {
-  font-size: 1.4em;
-  font-weight: bold;
+  font-size: 1.2em;
 }
