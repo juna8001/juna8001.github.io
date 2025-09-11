@@ -26,7 +26,7 @@ nav.site-nav a {
     font-size: 22px;
 
 
-    padding: 0.2em 0.8em;
+    padding: 0px;
     /* border-radius: 12px; */
     transition: outline-color 0.2s;
     display: flex;
