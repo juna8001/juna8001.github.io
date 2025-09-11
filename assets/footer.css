@@ -1,9 +1,11 @@
 .site-footer {
-  background: var(--footer-bg);
-  color: var(--footer-text);
-  padding: 2em 0;
-  min-height: 80px;
-  text-align: center;
+    background: var(--footer-bg);
+    color: var(--footer-text);
+    padding: 2em 0;
+    min-height: 80px;
+    text-align: center;
+
+    border-top: 2px solid var(--acent-color);
 }
 
 .footer-content p {
@@ -11,24 +13,37 @@
     font-size: 16px;
 }
 
+.footer-contact-title {
+    font-family: var(--reckoner-bold);
+    font-size: 1.6em;
+    margin-bottom: 0.5em;
+}
+
+.footer-contact-buttons {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
 .footer-contact-btn {
-  background: var(--main-alt-color);
-  color: var(--content-alt-color);
-  border: none;
-  padding: 0.5em 1.5em;
-border-radius: 50%;
-width: 64px;
-height: 64px;
-padding: 0;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-  font-size: 1em;
-  cursor: pointer;
-  margin-top: 1em;
+    background: var(--main-alt-color);
+    color: var(--content-alt-color);
+    border: none;
+    padding: 0.5em 1.5em;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 1em;
 }
 
 .footer-contact-btn:hover {
-  background: var(--main-alt-color-hover);
-  color: var(--content-alt-color-hover
-}
+    background: var(--main-alt-color-hover);
+    color: var(--content-alt-color-hover
+    }
