@@ -23,7 +23,7 @@ nav.site-nav a {
     color: var(--header-text);
     text-decoration: none;
     font-family: var(--reckoner);
-    font-size: 19px;
+    font-size: 22px;
 
 
     padding: 0.2em 0.8em;
@@ -42,7 +42,7 @@ nav.site-nav a {
 }
 
 nav.site-nav a.active {
-    font-size: 1.1em;
+    font-size: 20px;
     /* Prevent container from resizing */
     height: 40px;
     width: 120px;
