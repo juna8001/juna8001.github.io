@@ -28,8 +28,14 @@ nav.site-nav a {
     border: 2px solid var(--content-color-hover);
     width: 120px;
     height: 40px;
+    line-height: 1;
+    overflow: hidden;
 }
 
 nav.site-nav a.active {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    /* Prevent container from resizing */
+    height: 40px;
+    width: 120px;
+    background: var(--content-color-hover);
 }

@@ -5,7 +5,7 @@
     min-height: 80px;
     text-align: center;
 
-    border-top: 2px solid var(--acent-color);
+    border-top: 4px solid var(--acent-color);
 }
 
 .footer-content p {
@@ -16,11 +16,9 @@
 .footer-contact-title {
     font-family: var(--reckoner_bold);
     font-size: 1.6em;
-    margin-bottom: 0.5em;
 }
 
 .footer-contact-buttons {
-    margin-top: 1em;
     display: flex;
     justify-content: center;
     gap: 1em;
