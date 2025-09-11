@@ -8,4 +8,14 @@ permalink: /train-game/
 
 Here’s the prototype embedded from itch.io:
 
-<iframe frameborder="0" src="https://itch.io/embed-upload/788692?color=645544" allowfullscreen="" width="768" height="432"><a href="https://juna8001.itch.io/gra-o-pocigu">Play Gra o pociągu on itch.io</a></iframe>
+<div style="position: relative; overflow: visible; width: 100%; height: 0; padding-bottom: 56.25%; text-align: center;">
+  <iframe 
+  frameborder="0" 
+  src="https://itch.io/embed-upload/788692?color=645544" 
+  allowfullscreen
+    style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 1200px; height: 675px; border: none;"
+  width="1200" 
+  height="675">
+  
+  <a href="https://juna8001.itch.io/gra-o-pocigu">Play Gra o pociągu on itch.io</a></iframe>
+</div>
