@@ -10,3 +10,19 @@
     margin: 5px 0;
     font-size: 16px;
 }
+
+.footer-contact-btn {
+  background: #c42929;
+  color: #61d333;
+  border: none;
+  padding: 0.5em 1.5em;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.footer-contact-btn:hover {
+  background: #da5454;
+  color: #afdd9d;
+}

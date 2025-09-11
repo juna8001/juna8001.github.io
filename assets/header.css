@@ -7,11 +7,12 @@ nav.site-nav {
   display: flex;
   justify-content: center;
   gap: 4em;
+  font-family: var(--reckoner);
 }
 nav.site-nav a {
   color: var(--header-text);
   text-decoration: none;
-  font-weight: bold;
+  font-family: var(--reckoner_bold);
 }
 nav.site-nav a.active {
   font-size: 1.4em;
