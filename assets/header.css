@@ -1,0 +1,19 @@
+header.site-header {
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 1em 0;
+}
+nav.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+nav.site-nav a {
+  color: var(--header-text);
+  text-decoration: none;
+  font-weight: bold;
+}
+nav.site-nav a.active {
+  font-size: 1.2em;
+  font-weight: bold;
+}
