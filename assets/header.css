@@ -8,7 +8,7 @@ header.site-header {
 nav.site-nav {
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 1em;
 }
 
 nav.site-nav a {
