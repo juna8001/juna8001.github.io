@@ -25,7 +25,7 @@
         </div>
         
         {% capture desc_content %}
-            {% include_relative include.description %}
+            {% include_relative {{ include.description }} %}
         {% endcapture %}
 
         {{ desc_content | markdownify }}
