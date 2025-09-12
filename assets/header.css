@@ -13,6 +13,7 @@ header.site-header {
     margin-top: 0px;
     margin-bottom: 0px;
     font-style: italic;
+    text-shadow: 2px 1px var(--content-color);
 }
 
 .site-header-subtitle {
@@ -23,6 +24,7 @@ header.site-header {
     justify-self: center;
     font-weight: normal;
     font-style: italic;
+    text-shadow: 2px 1px var(--content-color);
 }
 
 nav.site-nav {
