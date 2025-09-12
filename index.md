@@ -83,7 +83,7 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 </div>
 
 {% include project_preview.html
-    description = "assets\dark_sky\DarkSky.md"
-    image1 = "assets\dark_sky\DarkSky_Keyart.png"
-    video2 = "assets\dark_sky\DarkSky_Combat_BossAttack.mp4"
+    description = "assets/dark_sky/DarkSky.md"
+    image1 = "assets/dark_sky/DarkSky_Keyart.png"
+    video2 = "assets/dark_sky/DarkSky_Combat_BossAttack.mp4"
 %}
