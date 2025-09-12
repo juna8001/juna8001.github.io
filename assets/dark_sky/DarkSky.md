@@ -1,8 +1,9 @@
 ### A card based RPG adventure game.
 
-### **Role:** Lead Engineer
+### Role:
+Lead Engineer
 
-### **Contributions**:
+### Contributions:
 * Designed entire project architecture (multi-scene setup, automatic addressables management, flexible event system).
 * Developed entire turn-based combat system.
 * Created a graph-based tools for creating combat abilities.

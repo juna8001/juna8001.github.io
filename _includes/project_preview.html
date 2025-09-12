@@ -2,92 +2,101 @@
 
     <!-- <div style="display:flex; gap:1rem; flex-wrap:wrap; flex-direction: column; justify-content:center;"> -->
 
-        <h2 class="project-title">{{ include.title }}</h2>
+    <h2 class="project-title">{{ include.title }}</h2>
 
-        <div class="project-media">
+    <div class="project-media">
 
-            {% if include.image1 %}
-            <img src="{{ include.image1 }}" alt="Image 1">
-            {% endif %}
-
-            {% if include.video1 %}
-            <video src="{{ include.video1 }}" alt="Video 2" autoplay loop muted playsinline></video>
-            {% endif %}
-
-            {% if include.image2 %}
-            <img src="{{ include.image2 }}" alt="Image 2">
-            {% endif %}
-
-            {% if include.video2 %}
-            <video src="{{ include.video2 }}" alt="Video 2" autoplay loop muted playsinline></video>
-            {% endif %}
-
-        </div>
-        
-        {% capture desc_content %}
-            {% include_relative {{ include.description }} %}
-        {% endcapture %}
-
-        {{ desc_content | strip | markdownify }}
-        
-        {% if include.projectURL %}
-        <div style="text-align:center; margin-top:0.5rem;">
-            <a href="/projects/project-title" style="display:inline-block; padding:0.6rem 1.2rem; 
-            background:#007acc; color:white; border-radius:6px; text-decoration:none;">
-                View Project →
-            </a>
-        </div>
+        {% if include.image1 %}
+        <img src="{{ include.image1 }}" alt="Image 1">
         {% endif %}
+
+        {% if include.video1 %}
+        <video src="{{ include.video1 }}" alt="Video 2" autoplay loop muted playsinline></video>
+        {% endif %}
+
+        {% if include.image2 %}
+        <img src="{{ include.image2 }}" alt="Image 2">
+        {% endif %}
+
+        {% if include.video2 %}
+        <video src="{{ include.video2 }}" alt="Video 2" autoplay loop muted playsinline></video>
+        {% endif %}
+
+    </div>
+
+    {% capture desc_content %}
+    {% include_relative {{ include.description }} %}
+    {% endcapture %}
+
+    {{ desc_content | strip | markdownify }}
+
+    {% if include.projectURL %}
+    <div style="text-align:center; margin-top:0.5rem;">
+        <a href="/projects/project-title" style="display:inline-block; padding:0.6rem 1.2rem; 
+            background:#007acc; color:white; border-radius:6px; text-decoration:none;">
+            View Project →
+        </a>
+    </div>
+    {% endif %}
 
     <!-- </div> -->
 </div>
 
 <style>
-
-.project-title{
-    font-family: var(--reckoner);
-    font-size: 38px;
-    align-self: center;
-    margin: 0px;
-    color: var(--main-color);
-    font-weight: normal;
-}
-
-.project-panel {
-  border: 4px solid var(--acent-color);
-  border-radius: 12px;
-  padding: .5rem 2rem 2rem 2rem;
-  margin-bottom: 2rem;
-
-  background-color: var(--content-color);
-  color: var(--main-color);
-
-  display: flex;
-  gap: .2rem;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-}
-
-@media (max-width: 800px) {
-    .project-media {
-        flex-direction: column;
+    .project-title {
+        font-family: var(--reckoner);
+        font-size: 38px;
+        align-self: center;
+        margin: 0px;
+        color: var(--main-color);
+        font-weight: normal;
     }
-}
 
-.project-panel h3{
-    margin-top: 8px;
-    margin-bottom: 4px;
-    font-weight: normal;
-}
+    .project-panel {
+        border: 4px solid var(--acent-color);
+        border-radius: 12px;
+        padding: .5rem 2rem 2rem 2rem;
+        margin-bottom: 2rem;
 
-.project-panel img, .project-panel video {
-  width: 48%;
-  border-radius: 8px;
-}
+        background-color: var(--content-color);
+        color: var(--main-color);
 
-.project-panel ul{
-    margin-top: 2px;
-}
+        display: flex;
+        gap: .2rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .project-media {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-panel img,
+    .project-panel video {
+        width: 48%;
+        border-radius: 8px;
+    }
+
+    @media (max-width: 800px) {
+        .project-media {
+            flex-direction: column;
+        }
+
+        .project-panel img,
+        .project-panel video {
+            width: 100%;
+        }
+    }
+
+    .project-panel h3 {
+        margin-top: 8px;
+        margin-bottom: 4px;
+        font-weight: normal;
+    }
+
+    .project-panel ul {
+        margin-top: 2px;
+    }
 </style>
