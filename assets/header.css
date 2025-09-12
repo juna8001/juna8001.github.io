@@ -41,8 +41,8 @@ nav.site-nav a {
 nav.site-nav a.active {
     /* font-size: 22px; */
     /* Prevent container from resizing */
-    height: 40px;
-    width: 120px;
+    /* height: 40px;
+    width: 120px; */
     background: var(--content-color-hover);
     /* border-color: var(--content-color); */
 }
