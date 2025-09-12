@@ -14,7 +14,7 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 
 <div style="display: flex; gap: 2rem;">
 
-<div style="flex: 1;">
+<div style="flex: 1;" markdown="1">
 
 ### Featured Skills
 - Gameplay programming
@@ -25,7 +25,7 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 
 </div>
 
-<div style="flex: 1;">
+<div style="flex: 1;" markdown="1">
 
 ### Services Offered
 - Game development (from prototype to release)
@@ -41,7 +41,7 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 
 <div style="border:1px solid #ddd; border-radius:12px; padding:1rem; margin-bottom:2rem">
 
-<div style="display:flex; gap:1rem; flex-wrap:wrap; flex-direction: column; justify-content:center;">
+<div style="display:flex; gap:1rem; flex-wrap:wrap; flex-direction: column; justify-content:center;" markdown="1">
 
 # Dark Sky
 
