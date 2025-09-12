@@ -4,7 +4,7 @@
 
         <h2 class="project-title">{{ include.title }}</h2>
 
-        <div>
+        <div class="project-media">
 
             {% if include.image1 %}
             <img src="{{ include.image1 }}" alt="Image 1">
@@ -67,6 +67,12 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .project-media {
+        flex-direction: column;
+    }
 }
 
 .project-panel h3{
