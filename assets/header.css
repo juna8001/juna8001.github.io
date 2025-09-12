@@ -21,6 +21,7 @@ nav.site-nav {
 
 nav.site-nav a {
     display: flex;
+    width: 120px;
     height: 40px;
     padding: 0px;
     color: var(--header-text);
