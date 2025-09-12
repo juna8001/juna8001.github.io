@@ -24,6 +24,7 @@ nav.site-nav a {
     text-decoration: none;
     font-family: var(--reckoner);
     font-size: 22px;
+    border-radius: 8px;
 
 
     padding: 0px;
