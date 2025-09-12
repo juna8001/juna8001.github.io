@@ -47,7 +47,7 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 
 <div>
   <img 
-  src="assets\dark sky\Dark Sky_Keyart.png" 
+  src="assets\dark_sky\DarkSky_Keyart.png" 
   alt="Screenshot 1" 
   style="width:48%; border-radius:8px;">
   <!-- <img 
@@ -55,7 +55,7 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
   alt="Screenshot 2" 
   style="width:48%; border-radius:8px;"> -->
   <video 
-  src="assets\dark sky\DarkSky_Combat_BossAttack.mp4" 
+  src="assets\dark_sky\DarkSky_Combat_BossAttack.mp4" 
   controls 
   style="width:48%; border-radius:8px;"></video>
 
@@ -83,7 +83,7 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 </div>
 
 {% include project_preview.html
-    description = "assets\dark sky\Dark Sky.md"
-    image1 = "assets\dark sky\Dark Sky_Keyart.png"
-    video2 = "assets\dark sky\DarkSky_Combat_BossAttack.mp4"
+    description = "assets\dark_sky\DarkSky.md"
+    image1 = "assets\dark_sky\DarkSky_Keyart.png"
+    video2 = "assets\dark_sky\DarkSky_Combat_BossAttack.mp4"
 %}
