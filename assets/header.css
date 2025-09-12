@@ -20,30 +20,25 @@ nav.site-nav {
 }
 
 nav.site-nav a {
+    display: flex;
+    height: 40px;
+    padding: 0px;
     color: var(--header-text);
-    text-decoration: none;
-    font-family: var(--reckoner);
-    font-size: 22px;
+    background: var(--content-color);
     border-radius: 8px;
 
+    font-family: var(--reckoner);
+    font-size: 24px;
 
-    padding: 0px;
-    /* border-radius: 12px; */
-    transition: outline-color 0.2s;
-    display: flex;
+    text-decoration: none;
     align-items: center;
     justify-content: center;
-
-    background: var(--content-color);
-    /* border: 2px solid var(--content-color-hover); */
-    width: 120px;
-    height: 40px;
     line-height: 1;
     overflow: hidden;
 }
 
 nav.site-nav a.active {
-    font-size: 20px;
+    font-size: 22px;
     /* Prevent container from resizing */
     height: 40px;
     width: 120px;
