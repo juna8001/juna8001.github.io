@@ -1,0 +1,37 @@
+<div style="border:1px solid #ddd; border-radius:12px; padding:1rem; margin-bottom:2rem">
+
+    <div style="display:flex; gap:1rem; flex-wrap:wrap; flex-direction: column; justify-content:center;" markdown="1">
+
+        # {{ include.title }}
+
+        <div>
+
+            {% if include.image1 %}
+            <img src="{{ include.image1 }}" alt="Image 1" style="width:48%; border-radius:8px;">
+            {% endif %}
+
+            {% if include.video1 %}
+            <video src="{{ include.video1 }}" alt="Video 2" controls style="width:48%; border-radius:8px;"></video>
+            {% endif %}
+
+            {% if include.image2 %}
+            <img src="{{ include.image2 }}" alt="Image 2" style="width:48%; border-radius:8px;">
+            {% endif %}
+
+            {% if include.video2 %}
+            <video src="{{ include.video2 }}" alt="Video 2" controls style="width:48%; border-radius:8px;"></video>
+            {% endif %}
+
+        </div>
+
+        {{ include.description }}
+
+        <div style="text-align:center; margin-top:0.5rem;">
+            <a href="/projects/project-title" style="display:inline-block; padding:0.6rem 1.2rem; 
+            background:#007acc; color:white; border-radius:6px; text-decoration:none;">
+                View Project →
+            </a>
+        </div>
+
+    </div>
+</div>
