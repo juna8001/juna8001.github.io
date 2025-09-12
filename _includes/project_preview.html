@@ -1,25 +1,25 @@
-<div style="border:1px solid #ddd; border-radius:12px; padding:1rem; margin-bottom:2rem">
+<div class="project-panel">
 
-    <div style="display:flex; gap:1rem; flex-wrap:wrap; flex-direction: column; justify-content:center;">
+    <!-- <div style="display:flex; gap:1rem; flex-wrap:wrap; flex-direction: column; justify-content:center;"> -->
 
-        <h2>{{ include.title }}</h2>
+        <h2 class="project-title">{{ include.title }}</h2>
 
         <div>
 
             {% if include.image1 %}
-            <img src="{{ include.image1 }}" alt="Image 1" style="width:48%; border-radius:8px;">
+            <img src="{{ include.image1 }}" alt="Image 1">
             {% endif %}
 
             {% if include.video1 %}
-            <video src="{{ include.video1 }}" alt="Video 2" controls style="width:48%; border-radius:8px;"></video>
+            <video src="{{ include.video1 }}" alt="Video 2" controls></video>
             {% endif %}
 
             {% if include.image2 %}
-            <img src="{{ include.image2 }}" alt="Image 2" style="width:48%; border-radius:8px;">
+            <img src="{{ include.image2 }}" alt="Image 2">
             {% endif %}
 
             {% if include.video2 %}
-            <video src="{{ include.video2 }}" alt="Video 2" controls style="width:48%; border-radius:8px;"></video>
+            <video src="{{ include.video2 }}" alt="Video 2" controls></video>
             {% endif %}
 
         </div>
@@ -39,15 +39,27 @@
         </div>
         {% endif %}
 
-    </div>
+    <!-- </div> -->
 </div>
 
 <style>
+
+.project-title{
+    font-family: var(--reckoner);
+    font-size: 24px;
+}
+
 .project-panel {
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 1rem;
   margin-bottom: 2rem;
+
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
 .project-panel img, .project-panel video {
   width: 48%;
