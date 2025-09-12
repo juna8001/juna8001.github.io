@@ -5,6 +5,20 @@ header.site-header {
     border-bottom: 3px solid var(--content-color);
 }
 
+.site-header-title {
+    font-family: var(--reckoner_bold);
+    font-size: 32px;
+    align-self: center;
+}
+
+.site-header-subtitle{
+    font-family: var(--reckoner);
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
 nav.site-nav {
     display: flex;
     justify-content: center;
