@@ -39,49 +39,6 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 
 ## Featured Projects
 
-<div style="border:1px solid #ddd; border-radius:12px; padding:1rem; margin-bottom:2rem">
-
-<div style="display:flex; gap:1rem; flex-wrap:wrap; flex-direction: column; justify-content:center;" markdown="1">
-
-# Dark Sky
-
-<div>
-  <img 
-  src="assets\dark_sky\DarkSky_Keyart.png" 
-  alt="Screenshot 1" 
-  style="width:48%; border-radius:8px;">
-  <!-- <img 
-  src="image2.jpg" 
-  alt="Screenshot 2" 
-  style="width:48%; border-radius:8px;"> -->
-  <video 
-  src="assets\dark_sky\DarkSky_Combat_BossAttack.mp4" 
-  controls 
-  style="width:48%; border-radius:8px;"></video>
-
-</div>
-
-### A card based RPG adventure game.
-
-### **Role:** Lead Engineer
-
-### Contributions:
-* Designed entire project architecture (multi-scene setup, automatic addressables management, flexible event system).
-* Developed entire turn-based combat system.
-* Created a graph-based tools for creating combat abilities.
-* Configured automated build pipelines using GitHub Actions and Unity Cloud Build.
-
-<div style="text-align:center; margin-top:0.5rem;">
-  <a href="/projects/project-title" 
-     style="display:inline-block; padding:0.6rem 1.2rem; 
-            background:#007acc; color:white; border-radius:6px; text-decoration:none;">
-    View Project →
-  </a>
-</div>
-
-</div>
-</div>
-
 {% include project_preview.html
     title = "Dark Sky"
     description = "assets/dark_sky/DarkSky.md"

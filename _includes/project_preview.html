@@ -28,14 +28,29 @@
             {% include_relative {{ include.description }} %}
         {% endcapture %}
 
-        {{ desc_content | markdownify }}
-
+        {{ desc_content | strip | markdownify }}
+        
+        {% if include.projectURL %}
         <div style="text-align:center; margin-top:0.5rem;">
             <a href="/projects/project-title" style="display:inline-block; padding:0.6rem 1.2rem; 
             background:#007acc; color:white; border-radius:6px; text-decoration:none;">
                 View Project →
             </a>
         </div>
+        {% endif %}
 
     </div>
 </div>
+
+<style>
+.project-panel {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.project-panel img, .project-panel video {
+  width: 48%;
+  border-radius: 8px;
+}
+</style>
