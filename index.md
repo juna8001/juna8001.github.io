@@ -4,7 +4,7 @@ title: "Kamil Maślanka"
 ---
 
 # Kamil Maślanka
-## Game and Tools Developer
+<!-- ## Game and Tools Developer -->
 
 ### From quirky prototypes to shipped titles - I build what makes games tick.
 
