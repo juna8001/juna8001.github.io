@@ -3,7 +3,7 @@ layout: default
 title: "Kamil Maślanka"
 ---
 
-# Hello
+# Hello!
 
 ### From quirky prototypes to shipped titles - I build what makes games tick.
 
