@@ -43,8 +43,8 @@ nav.site-nav {
 
 nav.site-nav a {
     display: flex;
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 60px;
     padding: 0px;
     color: var(--header-text);
     background: var(--content-color);
@@ -59,6 +59,10 @@ nav.site-nav a {
     justify-content: center;
     line-height: 1;
     overflow: visible;
+}
+
+nav.site-nav a:hover {
+    background: var(--acent-color-hover);
 }
 
 nav.site-nav a.active {
