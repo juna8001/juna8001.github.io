@@ -24,18 +24,21 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1.2em 0 0.6em;
 }
 
+
 h1 {
   font-size: 2.25rem;
+  font-weight: bold;
   /* ~36px */
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   /* ~28px */
 }
 
 h3 {
   font-size: 1.5rem;
+  font-weight: bold;
   /* ~24px */
 }
 

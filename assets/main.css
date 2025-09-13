@@ -3,6 +3,8 @@
 html,
 body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -11,6 +13,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    align-items: center;   /* center horizontally */
     background: var(--body-bg);
     color: var(--body-text);
 }
