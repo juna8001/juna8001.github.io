@@ -47,7 +47,7 @@ nav.site-nav a {
     height: 60px;
     padding: 0px;
     color: var(--header-text);
-    background: var(--content-color);
+    /* background: var(--content-color); */
     border-radius: 8px;
 
     font-family: var(--reckoner);
