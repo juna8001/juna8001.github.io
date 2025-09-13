@@ -16,6 +16,6 @@ permalink: /professional/
     title = "Tainted Grail: Conquest"
     year = "2021"
     description = "assets/dark_sky/DarkSky.md"
-    image1 = "assets\tainted_grail\TRAILER_30s_Cut_1350.mp4"
-    video2 = "assets\tainted_grail\TRAILER_15s_Cut_1080.mp4"
+    image1 = "assets/tainted_grail/TRAILER_30s_Cut_1350.mp4"
+    video2 = "assets/tainted_grail/TRAILER_15s_Cut_1080.mp4"
 %}
