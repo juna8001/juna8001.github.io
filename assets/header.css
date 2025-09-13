@@ -2,7 +2,7 @@ header.site-header {
     background: var(--header-bg);
     color: var(--header-text);
     padding: 1em 0 0 0;
-    border-bottom: 3px solid var(--acent-color);
+    /* border-bottom: 3px solid var(--acent-color); */
 }
 
 .site-header-title {
@@ -49,7 +49,7 @@ nav.site-nav a {
     padding: 0px;
     color: var(--header-text);
     /* background: var(--content-color); */
-    border-radius: 8px;
+    /* border-radius: 8px; */
 
     font-family: var(--reckoner);
     font-size: 22px;
