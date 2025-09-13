@@ -55,6 +55,8 @@ nav.site-nav a {
 
     text-decoration: none;
     text-align: center;
+    text-shadow: 1px 1px var(--content-color);
+    
     align-items: center;
     justify-content: center;
     line-height: 1;
@@ -72,5 +74,5 @@ nav.site-nav a.active {
     width: 120px; */
     /* background: var(--content-color-hover); */
     /* border-color: var(--content-color); */
-    color: var(--header-text-hover);
+    color: var(--main-color-hover);
 }
