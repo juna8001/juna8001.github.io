@@ -51,12 +51,12 @@ nav.site-nav a {
     border-radius: 8px;
 
     font-family: var(--reckoner);
-    font-size: 24px;
+    font-size: 22px;
 
-    text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px var(--content-color);
-    
+    text-transform: uppercase;
+
     align-items: center;
     justify-content: center;
     line-height: 1;
