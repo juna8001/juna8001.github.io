@@ -1,7 +1,6 @@
 ### A card based RPG adventure game.
 
-### Role:
-Lead Engineer
+### Role: **Lead Engineer**
 
 ### Contributions:
 * Designed entire project architecture (multi-scene setup, automatic addressables management, flexible event system).
