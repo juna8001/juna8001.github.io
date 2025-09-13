@@ -1,8 +1,8 @@
 header.site-header {
     background: var(--header-bg);
     color: var(--header-text);
-    padding: 1em 0;
-    border-bottom: 3px solid var(--content-color);
+    padding: 1em 0 0 0;
+    border-bottom: 3px solid var(--acent-color);
 }
 
 .site-header-title {
@@ -31,6 +31,7 @@ nav.site-nav {
     display: flex;
     justify-content: center;
     gap: 2em;
+    background-color: var(--content-color);
 }
 
 @media (max-width: 600px) {
@@ -65,7 +66,7 @@ nav.site-nav a {
 }
 
 nav.site-nav a:hover {
-    background: var(--acent-color-hover);
+    background: var(--content-color-hover);
 }
 
 nav.site-nav a.active {
