@@ -45,7 +45,7 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 {% include project_preview.html
     title = "Dark Sky"
     year = "2024"
-    description = "assets/dark_sky/DarkSky.md"
+    description = "projects/DarkSky.md"
     image1 = "assets/dark_sky/DarkSky_Keyart.png"
     video2 = "assets/dark_sky/DarkSky_Combat_BossAttack.mp4"
 %}
