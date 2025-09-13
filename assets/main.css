@@ -1,12 +1,5 @@
 @import url('colors.css');
 
-:root {
-    --calluna: "calluna", Georgia, sans-serif;
-    --reckoner_bold: "reckoner_bold", Impact, sans-serif;
-    --reckoner: "reckoner", Impact, sans-serif;
-    font-family: var(--calluna);
-}
-
 html,
 body {
     height: 100%;
