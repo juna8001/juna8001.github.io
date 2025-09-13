@@ -15,7 +15,7 @@ permalink: /professional/
 {% include project_preview.html
     title="Tainted Grail: Conquest"
     year="2021"
-    description="projects/DarkSky.md"
+    description="projects/TaintedGrail.md"
     video1="../assets/tainted_grail/TRAILER_30s_Cut_1350.mp4"
     video2="../assets/tainted_grail/TRAILER_15s_Cut_1080.mp4"
 %}
