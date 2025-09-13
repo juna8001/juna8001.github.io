@@ -19,3 +19,11 @@ permalink: /professional/
     video1="../assets/tainted_grail/TRAILER_30s_Cut_1350.mp4"
     video2="../assets/tainted_grail/TRAILER_15s_Cut_1080.mp4"
 %}
+
+{% include project_preview.html
+    title="Quill"
+    year="2025"
+    description="projects/Quill.md"
+    video1="../assets/quill/Locks.mp4"
+    video2="../assets/quill/Comments.mp4"
+%}
