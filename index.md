@@ -48,4 +48,6 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
     description = "projects/DarkSky.md"
     image1 = "/assets/dark_sky/DarkSky_Keyart.png"
     video2 = "/assets/dark_sky/DarkSky_Combat_BossAttack.mp4"
+    internalURL = "/professional/"
+    internalURLtext = "View All Projects"
 %}
