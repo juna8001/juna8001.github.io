@@ -17,5 +17,5 @@ permalink: /personal/
     year="2019-2024"
     description="personal/Blocks.md"
     video1="../assets/blocks/blocks_wide.mp4"
-    video2="../assets/uniblocksty_nodes/blocks.mp4"
+    video2="../assets/blocks/blocks.mp4"
 %}
