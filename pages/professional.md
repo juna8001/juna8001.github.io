@@ -57,5 +57,5 @@ permalink: /professional/
     year="2019-2024"
     description="projects/JetSoccer.md"
     video1="../assets/jet_soccer/js-menu.mp4"
-    image2="../assets/jet_soccer/js-trailer.mp4"
+    video2="../assets/jet_soccer/js-trailer.mp4"
 %}
