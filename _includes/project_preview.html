@@ -25,6 +25,28 @@
 
     </div>
 
+    {% if include.image3 or include.image4 or include.video3 or include.video4 %}
+    <div class="project-media">
+
+        {% if include.image3 %}
+        <img src="{{ include.image3 }}" alt="Image 3">
+        {% endif %}
+
+        {% if include.video3 %}
+        <video src="{{ include.video3 }}" alt="Video 3" autoplay loop muted playsinline></video>
+        {% endif %}
+
+        {% if include.image4 %}
+        <img src="{{ include.image4 }}" alt="Image 4">
+        {% endif %}
+
+        {% if include.video4 %}
+        <video src="{{ include.video4 }}" alt="Video 4" autoplay loop muted playsinline></video>
+        {% endif %}
+
+    </div>
+    {% endif %}
+
     {% capture desc_content %}
     {% include {{ include.description }} %}
     {% endcapture %}

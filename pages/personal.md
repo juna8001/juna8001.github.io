@@ -19,3 +19,13 @@ permalink: /personal/
     video1="../assets/blocks/blocks_wide.mp4"
     video2="../assets/blocks/blocks.mp4"
 %}
+
+{% include project_preview.html
+    title="Tweet Carts"
+    year=""
+    description="personal/Blocks.md"
+    image1="../assets/tweetcarts/snails_0.gif"
+    image2="../assets/tweetcarts/eye-1.gif"
+    image3="../assets/tweetcarts/rain.gif"
+    image4="../assets/tweetcarts/rotating-clepsydres_0.gif"
+%}
