@@ -21,6 +21,14 @@ permalink: /personal/
 %}
 
 {% include project_preview.html
+    title="Unity Nodes"
+    year="2018"
+    description="personal/Train.md"
+    image1="../assets/train/train1.png"
+    image2="../assets/train/train2.png"
+%}
+
+{% include project_preview.html
     title="Tweet Carts"
     year=""
     description="personal/Blocks.md"
