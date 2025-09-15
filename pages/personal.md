@@ -27,7 +27,7 @@ permalink: /personal/
     image1="../assets/train/train1.png"
     image2="../assets/train/train2.png"
     externalURL="https://juna8001.itch.io/gra-o-pocigu"
-    externalURLtext=" "View on itch.io →"
+    externalURLtext="View on itch.io →"
 %}
 
 {% include project_preview.html
