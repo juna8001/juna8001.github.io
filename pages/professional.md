@@ -10,6 +10,7 @@ permalink: /professional/
     description="projects/DarkSky.md"
     image1="../assets/dark_sky/DarkSky_Keyart.png"
     video2="../assets/dark_sky/DarkSky_Combat_BossAttack.mp4"
+    externalURL="https://store.steampowered.com/app/1454960/Dark_Sky/"
 %}
 
 {% include project_preview.html
@@ -27,6 +28,7 @@ permalink: /professional/
     description="projects/Quill.md"
     video1="../assets/quill/Locks.mp4"
     video2="../assets/quill/Comments.mp4"
+    externalURL="https://www.quill4.dev/"
 %}
 
 {% include project_preview.html
@@ -35,6 +37,7 @@ permalink: /professional/
     description="projects/JetSoccer.md"
     video1="../assets/jet_soccer/js-menu.mp4"
     video2="../assets/jet_soccer/js-trailer.mp4"
+    externalURL="https://store.steampowered.com/app/2472670/Jet_Soccer/"
 %}
 
 {% include project_preview.html
