@@ -61,6 +61,7 @@ permalink: /professional/
     year="2021-2022"
     description="projects/Beamable.md"
     image2="../assets/beamable/beam.png"
+    externalURL="https://beamable.com/"
 %}
 
 {% include project_preview.html
@@ -69,4 +70,5 @@ permalink: /professional/
     description="projects/LetsFish.md"
     video1="../assets/lets_fish/letsfishtrailer.mp4"
     image2="../assets/lets_fish/letsfishimage.jpg"
+    externalURL="https://play.google.com/store/apps/details?id=air.com.tensquaregames.letsfish&hl=en-US"
 %}
