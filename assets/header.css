@@ -76,5 +76,5 @@ nav.site-nav a.active {
     width: 120px; */
     /* background: var(--content-color-hover); */
     /* border-color: var(--content-color); */
-    color: var(--main-color-hover);
+    color: var(--acent-color-hover);
 }
