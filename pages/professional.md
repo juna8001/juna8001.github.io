@@ -35,3 +35,11 @@ permalink: /professional/
     video1="../assets/lets_fish/letsfishtrailer.mp4"
     image2="../assets/lets_fish/letsfishimage.jpg"
 %}
+
+{% include project_preview.html
+    title="Let's Craft"
+    year="2020"
+    description="projects/LetsCraft.md"
+    video1="../assets/lets_craft/letscraftvideo.mp4"
+    image2="../assets/lets_craft/letscraftimage.png"
+%}
