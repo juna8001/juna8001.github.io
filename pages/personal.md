@@ -21,7 +21,7 @@ permalink: /personal/
 %}
 
 {% include project_preview.html
-    title="Unity Nodes"
+    title="Train Game"
     year="2018"
     description="personal/Train.md"
     image1="../assets/train/train1.png"
