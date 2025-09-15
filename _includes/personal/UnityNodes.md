@@ -1,3 +1,9 @@
-Unity Nodes
+### Custom multi-purpose graph editor for Unity.
 
-Lorem Ipsum
+### Features:
+* Graph editor built with UI Toolkit.
+* Ability to save graphs as a separate assets or as a serialized field (for example in a prefab).
+* Ability to create custom graph types, graph nodes and connection types.
+* Support for all serializable types.
+* Ability to add comments to graphs.
+* Powerful usage of attributes that allow easy node customization.
