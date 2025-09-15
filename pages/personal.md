@@ -31,7 +31,7 @@ permalink: /personal/
 {% include project_preview.html
     title="Tweet Carts"
     year=""
-    description="personal/Blocks.md"
+    description="personal/Tweetcarts.md"
     image1="../assets/tweetcarts/snails_0.gif"
     image2="../assets/tweetcarts/eye-1.gif"
     image3="../assets/tweetcarts/rain.gif"
