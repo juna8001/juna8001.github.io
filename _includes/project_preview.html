@@ -53,14 +53,28 @@
 
     {{ desc_content | strip | markdownify }}
 
-    {% if include.projectURL %}
-    <div style="text-align:center; margin-top:0.5rem;">
-        <a href="/projects/project-title" style="display:inline-block; padding:0.6rem 1.2rem; 
-            background:#007acc; color:white; border-radius:6px; text-decoration:none;">
-            View Project →
+    <div class="project-button-row">
+
+        {% if include.internalURL %}
+        <a class="project-btn" href="{{ include.internalURL }}">
+            {{ include.internalURLtext | default: "View Project →" }}
         </a>
+        {% endif %}
+
+        {% if include.externalURL %}
+        <a class="project-btn" href="{{ include.externalURL }}" target="_blank" rel="noopener">
+            {{ include.externalURLtext | default: "View Project →" }}
+        </a>
+        {% endif %}
+
+        {% if include.steamURL %}
+        <a class="project-btn steam" href="{{ include.steamURL }}" target="_blank" rel="noopener">
+            <img src="/assets/icons/steam.svg" alt="Steam">
+            <span>{{ include.steamURLtext | default: "View Project →" }}</span>
+        </a>
+        {% endif %}
+
     </div>
-    {% endif %}
 
     <!-- </div> -->
 </div>
@@ -132,5 +146,40 @@
 
     .project-panel ul {
         margin-top: 2px;
+    }
+
+    /* Buttons */
+
+    .project-button-row {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin: 1rem 0;
+    }
+
+    .project-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: .5rem;
+        padding: .6rem 1.2rem;
+        border: 2px solid var(--acent-color);
+        border-radius: 8px;
+        background-color: var(--content-color);
+        color: var(--main-color);
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.2s;
+    }
+
+    .project-btn:hover {
+        background-color: var(--acent-color);
+        color: var(--content-color);
+    }
+
+    .project-btn.steam img {
+        width: 20px;
+        height: 20px;
+        display: block;
     }
 </style>

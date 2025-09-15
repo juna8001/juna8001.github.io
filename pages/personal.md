@@ -26,6 +26,7 @@ permalink: /personal/
     description="personal/Train.md"
     image1="../assets/train/train1.png"
     image2="../assets/train/train2.png"
+    externalURL="https://juna8001.itch.io/gra-o-pocigu"
 %}
 
 {% include project_preview.html
