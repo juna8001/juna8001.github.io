@@ -29,19 +29,11 @@ permalink: /professional/
 %}
 
 {% include project_preview.html
-    title="Let's Fish"
-    year="2017-2019"
-    description="projects/LetsFish.md"
-    video1="../assets/lets_fish/letsfishtrailer.mp4"
-    image2="../assets/lets_fish/letsfishimage.jpg"
-%}
-
-{% include project_preview.html
-    title="Let's Craft"
-    year="2019"
-    description="projects/LetsCraft.md"
-    video1="../assets/lets_craft/letscraftvideo.mp4"
-    image2="../assets/lets_craft/letscraftimage.png"
+    title="Jet Soccer"
+    year="2019-2024"
+    description="projects/JetSoccer.md"
+    video1="../assets/jet_soccer/js-menu.mp4"
+    video2="../assets/jet_soccer/js-trailer.mp4"
 %}
 
 {% include project_preview.html
@@ -53,9 +45,24 @@ permalink: /professional/
 %}
 
 {% include project_preview.html
-    title="Jet Soccer"
-    year="2019-2024"
-    description="projects/JetSoccer.md"
-    video1="../assets/jet_soccer/js-menu.mp4"
-    video2="../assets/jet_soccer/js-trailer.mp4"
+    title="Let's Craft"
+    year="2019"
+    description="projects/LetsCraft.md"
+    video1="../assets/lets_craft/letscraftvideo.mp4"
+    image2="../assets/lets_craft/letscraftimage.png"
+%}
+
+{% include project_preview.html
+    title="Beamable"
+    year="2021-2022"
+    description="projects/Beamable.md"
+    image2="../assets/beamable/beam.png"
+%}
+
+{% include project_preview.html
+    title="Let's Fish"
+    year="2017-2019"
+    description="projects/LetsFish.md"
+    video1="../assets/lets_fish/letsfishtrailer.mp4"
+    image2="../assets/lets_fish/letsfishimage.jpg"
 %}
