@@ -38,8 +38,16 @@ permalink: /professional/
 
 {% include project_preview.html
     title="Let's Craft"
-    year="2020"
+    year="2019"
     description="projects/LetsCraft.md"
     video1="../assets/lets_craft/letscraftvideo.mp4"
     image2="../assets/lets_craft/letscraftimage.png"
+%}
+
+{% include project_preview.html
+    title="Deterministic Physics"
+    year="2020"
+    description="projects/DeterministicPhysics.md"
+    image1="../assets/deterministic_physics/df.png"
+    image2="../assets/deterministic_physics/grid.jpg"
 %}
