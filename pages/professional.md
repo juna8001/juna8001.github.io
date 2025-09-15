@@ -18,6 +18,7 @@ permalink: /professional/
     description="projects/TaintedGrail.md"
     video1="../assets/tainted_grail/TRAILER_30s_Cut_1350.mp4"
     video2="../assets/tainted_grail/TRAILER_15s_Cut_1080.mp4"
+    steamURL="https://store.steampowered.com/app/1199030/Tainted_Grail_Conquest/"
 %}
 
 {% include project_preview.html
