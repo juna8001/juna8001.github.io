@@ -14,6 +14,7 @@ Then include:
 <style>
     .project-grid {
         display: grid;
+        position: relative;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1rem;
     }
@@ -36,6 +37,10 @@ Then include:
     .filter-btn.active {
         background: #333;
         color: #fff;
+    }
+
+    .project-grid-wrapper {
+        margin: 0.5rem;
     }
 
     .project-grid-wrapper.hidden {
@@ -73,8 +78,15 @@ Then include:
     });
 
     var filtersElem = document.querySelector('.filter-buttons');
+
     filtersElem.addEventListener('click', function (event) {
+
         if (!event.target.matches('button')) return;
+
+        // update active class
+        filtersElem.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+
         var filterValue = event.target.getAttribute('data-filter');
         iso.arrange({ filter: filterValue });
     });
