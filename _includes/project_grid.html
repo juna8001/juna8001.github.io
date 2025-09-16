@@ -1,0 +1,29 @@
+{% comment %}
+Usage:
+In the page front matter:
+
+grid_projects:
+  - darksky
+  - train-game
+  - tainted-grail
+
+Then include:
+{% include project_grid.html %}
+{% endcomment %}
+
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+</style>
+
+<div class="project-grid">
+  {% for slug in page.grid_projects %}
+    {% assign p = site.projects | where: "slug", slug | first %}
+    {% if p %}
+      {% include project_rect.html project=slug %}
+    {% endif %}
+  {% endfor %}
+</div>
