@@ -42,7 +42,7 @@ nav.site-nav a {
     color: var(--header-text);
 
     font-family: var(--reckoner);
-    font-size: 22px;
+    font-size: 20px;
 
     text-align: center;
     text-shadow: 1px 1px var(--content-color);
@@ -53,10 +53,13 @@ nav.site-nav a {
     justify-content: center;
     line-height: 1;
     overflow: visible;
+
+    transition: background 0.4s ease, font-size 0.3s ease-in-out;
 }
 
 nav.site-nav a:hover {
     background: var(--content-color-hover);
+    font-size: 22px;
 }
 
 nav.site-nav a.active {
@@ -70,7 +73,7 @@ nav.site-nav a.active {
         gap: 0.3em;
     }
 
-    nav.site-nav a{
+    nav.site-nav a {
         width: 100%;
     }
 }
