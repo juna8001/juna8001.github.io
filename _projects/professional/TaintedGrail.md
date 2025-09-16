@@ -1,3 +1,14 @@
+---
+title: "Dark Sky"
+slug: "darksky"
+year: 2024
+image1: ../assets/dark_sky/DarkSky_Keyart.png
+video2: ../assets/dark_sky/DarkSky_Combat_BossAttack.mp4
+externalURL: https://store.steampowered.com/app/1454960/Dark_Sky/
+externalURLtext: "View on itch.io →"
+permalink: /professional/dark-sky/
+---
+
 ### A unique, infinitely replayable, story-driven hybrid between a deck-building roguelike and an RPG game.
 
 ### Role: **Senior Unity Developer**

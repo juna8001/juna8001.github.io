@@ -1,3 +1,12 @@
+---
+title: Unity Block Editor
+slug: blocks
+year: 2018
+video1: ../assets/blocks/blocks_wide.mp4
+video2: ../assets/blocks/blocks.mp4
+permalink: /personal/blocks/
+---
+
 ### Unity extension for modeling, texturing and texture painting voxel models.
 
 My first Unity extension.

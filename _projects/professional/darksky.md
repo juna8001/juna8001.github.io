@@ -1,7 +1,7 @@
 ---
 title: "Dark Sky"
 slug: "darksky"
-year: 2024
+year: "2024"
 image1: ../assets/dark_sky/DarkSky_Keyart.png
 video2: ../assets/dark_sky/DarkSky_Combat_BossAttack.mp4
 externalURL: https://store.steampowered.com/app/1454960/Dark_Sky/
