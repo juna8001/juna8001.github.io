@@ -44,13 +44,13 @@ Then include:
 </style>
 
 <div class="filter-buttons">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="professional">Professional Projects</button>
-    <button class="filter-btn" data-filter="personal">Personal Projects</button>
-    <button class="filter-btn" data-filter="game">Games</button>
-    <button class="filter-btn" data-filter="tool">Tools</button>
-    <button class="filter-btn" data-filter="unity">Unity</button>
-    <button class="filter-btn" data-filter="vfx">Shaders & Visual Effects</button>
+    <button class="filter-btn active" data-filter="*">All</button>
+    <button class="filter-btn" data-filter=".professional">Professional Projects</button>
+    <button class="filter-btn" data-filter=".personal">Personal Projects</button>
+    <button class="filter-btn" data-filter=".game">Games</button>
+    <button class="filter-btn" data-filter=".tool">Tools</button>
+    <button class="filter-btn" data-filter=".unity">Unity</button>
+    <button class="filter-btn" data-filter=".vfx">Shaders & Visual Effects</button>
 </div>
 
 <div class="project-grid">
@@ -58,33 +58,24 @@ Then include:
     {% assign p = site.projects | where: "slug", slug | first %}
     {% if p %}
     {% assign tags = p.tags | join: ' ' %}
-      <div class="project-grid-wrapper" data-tags="{{ tags }}">
-    {% include project_rect.html project=slug %}
-      </div>
+    <div class="project-grid-wrapper {{ p.tags | join: ' ' }}" data-category="{{ p.tags | join: ' ' }}">
+        {% include project_rect.html project=slug %}
+    </div>
     {% endif %}
     {% endfor %}
 </div>
 
 <script>
-    const buttons = document.querySelectorAll('.filter-btn');
-    const projects = document.querySelectorAll('.project-grid-wrapper');
+    var grid = document.querySelector('.project-grid');
+    var iso = new Isotope(grid, {
+        itemSelector: '.project-grid-wrapper',
+        layoutMode: 'fitRows'
+    });
 
-    buttons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            // update active button
-            buttons.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-
-            const filter = btn.dataset.filter;
-
-            projects.forEach(p => {
-                const tags = p.dataset.tags.split(' ');
-                if (filter === 'all' || tags.includes(filter)) {
-                    p.classList.remove('hidden');
-                } else {
-                    p.classList.add('hidden');
-                }
-            });
-        });
+    var filtersElem = document.querySelector('.filter-buttons');
+    filtersElem.addEventListener('click', function (event) {
+        if (!event.target.matches('button')) return;
+        var filterValue = event.target.getAttribute('data-filter');
+        iso.arrange({ filter: filterValue });
     });
 </script>
