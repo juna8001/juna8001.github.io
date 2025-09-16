@@ -4,7 +4,7 @@ slug: "quill"
 year: 2025
 video1: ../assets/quill/Locks.mp4
 video2: ../assets/quill/Comments.mp4
-externalURL: https://store.steampowered.com/app/1454960/Dark_Sky/
+externalURL: https://www.quill4.dev/
 permalink: /professional/quill/
 ---
 
