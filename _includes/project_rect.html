@@ -8,7 +8,6 @@ Usage:
 
 {% assign p = site.projects | where: "slug", include.project | first %}
 
-{% raw %}
 <a href="{{ p.url | relative_url }}" class="project-rect">
     <div class="project-rect-banner">
         {% include any_media.html src=p.banner %}
@@ -18,7 +17,6 @@ Usage:
         <p class="project-rect-desc">{{ p.short }}</p>
     </div>
 </a>
-{% endraw %}
 
 <style>
     .project-rect {
