@@ -12,7 +12,7 @@ header.site-header {
     font-weight: normal;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-style: italic;
+    /* font-style: italic; */
     text-shadow: 1px 1px var(--content-color);
 }
 
@@ -23,7 +23,7 @@ header.site-header {
     margin-bottom: 20px;
     justify-self: center;
     font-weight: normal;
-    font-style: italic;
+    /* font-style: italic; */
     text-shadow: 1px 1px var(--content-color);
 }
 
@@ -34,22 +34,12 @@ nav.site-nav {
     background-color: var(--content-color);
 }
 
-@media (max-width: 600px) {
-    nav.site-nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.3em;
-    }
-}
-
 nav.site-nav a {
     display: flex;
     width: 140px;
     height: 60px;
     padding: 0px;
     color: var(--header-text);
-    /* background: var(--content-color); */
-    /* border-radius: 8px; */
 
     font-family: var(--reckoner);
     font-size: 22px;
@@ -70,11 +60,17 @@ nav.site-nav a:hover {
 }
 
 nav.site-nav a.active {
-    /* font-size: 22px; */
-    /* Prevent container from resizing */
-    /* height: 40px;
-    width: 120px; */
-    /* background: var(--content-color-hover); */
-    /* border-color: var(--content-color); */
     color: var(--acent-color-hover);
+}
+
+@media (max-width: 600px) {
+    nav.site-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3em;
+    }
+
+    nav.site-nav a{
+        width: 100%;
+    }
 }
