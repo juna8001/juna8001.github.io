@@ -12,8 +12,16 @@ plugins:
   - jekyll-remote-theme
 
 # Collections / directories
-collections: []
+collections:
+  projects:
+    output: true
 
+defaults:
+  - scope:
+      type: "projects"
+    values:
+      layout: "project"   # optional: auto-assign layout to all project pages
+      
 # Markdown settings
 markdown: kramdown
 kramdown:

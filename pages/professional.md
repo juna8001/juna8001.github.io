@@ -4,6 +4,8 @@ title: "Professional Projects"
 permalink: /professional/
 ---
 
+{% include project_preview.html project="darksky" %}
+
 {% include project_preview.html
     title="Dark Sky"
     year="2024"
