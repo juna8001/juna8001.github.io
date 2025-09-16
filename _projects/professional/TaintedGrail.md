@@ -1,5 +1,5 @@
 ---
-title: Tainted Grail: Conquest
+title: "Tainted Grail: Conquest"
 slug: "taintedgrail"
 year: 2021
 video1: ../assets/tainted_grail/TRAILER_30s_Cut_1350.mp4
