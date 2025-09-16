@@ -40,7 +40,7 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 
 ## Featured Project
 
-{% include project_preview.html
+<!-- {% include project_preview.html
     title = "Dark Sky"
     year = "2024"
     description = "projects/DarkSky.md"
@@ -48,4 +48,4 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
     video2 = "../assets/dark_sky/DarkSky_Combat_BossAttack.mp4"
     internalURL = "/professional/"
     internalURLtext = "View All Projects"
-%}
+%} -->

@@ -6,7 +6,7 @@ permalink: /professional/
 
 {% include project_preview.html project="darksky" %}
 
-{% include project_preview.html
+<!-- {% include project_preview.html
     title="Dark Sky"
     year="2024"
     description="projects/DarkSky.md"
@@ -73,4 +73,4 @@ permalink: /professional/
     video1="../assets/lets_fish/letsfishtrailer.mp4"
     image2="../assets/lets_fish/letsfishimage.jpg"
     externalURL="https://play.google.com/store/apps/details?id=air.com.tensquaregames.letsfish&hl=en-US"
-%}
+%} -->

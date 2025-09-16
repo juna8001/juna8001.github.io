@@ -4,7 +4,7 @@ title: "Personal Projects"
 permalink: /personal/
 ---
 
-{% include project_preview.html
+<!-- {% include project_preview.html
     title="Unity Nodes"
     year="2024"
     description="personal/UnityNodes.md"
@@ -48,4 +48,4 @@ permalink: /personal/
     image2="../assets/tweetcarts/eye-1.gif"
     image3="../assets/tweetcarts/rain.gif"
     image4="../assets/tweetcarts/rotating-clepsydres_0.gif"
-%}
+%} -->
