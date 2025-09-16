@@ -38,14 +38,6 @@ Then include:
         background: #333;
         color: #fff;
     }
-
-    .project-grid-wrapper {
-        margin: 0.5rem;
-    }
-
-    .project-grid-wrapper.hidden {
-        display: none !important;
-    }
 </style>
 
 <div class="filter-buttons">
@@ -74,7 +66,10 @@ Then include:
     var grid = document.querySelector('.project-grid');
     var iso = new Isotope(grid, {
         itemSelector: '.project-grid-wrapper',
-        layoutMode: 'fitRows'
+        layoutMode: 'fitRows',
+        fitRows: {
+            gutter: 10
+        }
     });
 
     var filtersElem = document.querySelector('.filter-buttons');
