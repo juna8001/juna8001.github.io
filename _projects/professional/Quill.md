@@ -6,6 +6,9 @@ video1: ../assets/quill/Locks.mp4
 video2: ../assets/quill/Comments.mp4
 externalURL: https://www.quill4.dev/
 permalink: /professional/quill/
+
+banner: ../assets/quill/Locks.mp4
+short: Unity plugin for adding notes, comments and locks to assets in real time.
 ---
 
 ### Unity plugin for adding notes, comments and locks to assets in real time.

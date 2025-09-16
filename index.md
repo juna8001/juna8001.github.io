@@ -6,6 +6,8 @@ grid_projects:
   - darksky
   - taintedgrail
   - jetsoccer
+  - quill
+  - unitynodes
 ---
 
 # Kamil Maślanka
