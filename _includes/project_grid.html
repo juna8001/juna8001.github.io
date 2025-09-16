@@ -3,27 +3,83 @@ Usage:
 In the page front matter:
 
 grid_projects:
-  - darksky
-  - train-game
-  - tainted-grail
+- darksky
+- train-game
+- tainted-grail
 
 Then include:
 {% include project_grid.html %}
 {% endcomment %}
 
 <style>
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-}
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+
+    .filter-buttons {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        background: #ddd;
+        transition: background 0.2s;
+    }
+
+    .filter-btn.active {
+        background: #333;
+        color: #fff;
+    }
+
+    .project-grid-wrapper.hidden {
+        display: none !important;
+    }
 </style>
 
+<div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="professional">Professional</button>
+</div>
+
 <div class="project-grid">
-  {% for slug in page.grid_projects %}
+    {% for slug in page.grid_projects %}
     {% assign p = site.projects | where: "slug", slug | first %}
     {% if p %}
-      {% include project_rect.html project=slug %}
+    {% assign tags = p.tags | join: ' ' %}
+      <div class="project-grid-wrapper" data-tags="{{ tags }}">
+    {% include project_rect.html project=slug %}
+      </div>
     {% endif %}
-  {% endfor %}
+    {% endfor %}
 </div>
+
+<script>
+    const buttons = document.querySelectorAll('.filter-btn');
+    const projects = document.querySelectorAll('.project-grid-wrapper');
+
+    buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // update active button
+            buttons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const filter = btn.dataset.filter;
+
+            projects.forEach(p => {
+                const tags = p.dataset.tags.split(' ');
+                if (filter === 'all' || tags.includes(filter)) {
+                    p.classList.remove('hidden');
+                } else {
+                    p.classList.add('hidden');
+                }
+            });
+        });
+    });
+</script>

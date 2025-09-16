@@ -6,6 +6,7 @@ video1: ../assets/lets_fish/letsfishtrailer.mp4
 image2: ../assets/lets_fish/letsfishimage.jpg
 externalURL: https://play.google.com/store/apps/details?id=air.com.tensquaregames.letsfish&hl=en-US
 permalink: /professional/lets-fish/
+tags: [professional]
 
 banner: ../assets/lets_fish/letsfishtrailer.mp4
 short: Popular fishing simulator for IOS and Android.
