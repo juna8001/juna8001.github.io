@@ -8,4 +8,6 @@ tags: [unity, gamedev, game, development, hire, developer, godot, indie, design,
 
 TODO
 
+<div>
 {% include project_rect.html project="darksky" %}
+</div>
