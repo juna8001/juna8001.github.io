@@ -31,6 +31,16 @@ permalink: /personal/
 %}
 
 {% include project_preview.html
+    title="Dunajec Disaster"
+    year="2019"
+    description="personal/Dunajec.md"
+    video1="../assets/dunajec/dunajec.mp4"
+    image2="../assets/dunajec/dunajec-image.jpg"
+    externalURL="https://juna8001.itch.io/dunajecdisaster"
+    externalURLtext="View on itch.io →"
+%}
+
+{% include project_preview.html
     title="Tweet Carts"
     year=""
     description="personal/Tweetcarts.md"
