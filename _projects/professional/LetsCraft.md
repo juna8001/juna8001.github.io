@@ -5,6 +5,9 @@ year: 2019
 video1: ../assets/lets_craft/letscraftvideo.mp4
 image2: ../assets/lets_craft/letscraftimage.png
 permalink: /professional/lets-craft/
+
+banner: ../assets/lets_craft/letscraftvideo.mp4
+short: Minecraft-like game for Facebook Instant Games.
 ---
 
 ### Minecraft-like game for Facebook Instant Games.

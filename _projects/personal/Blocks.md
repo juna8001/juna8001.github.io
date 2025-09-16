@@ -5,6 +5,9 @@ year: 2018
 video1: ../assets/blocks/blocks_wide.mp4
 video2: ../assets/blocks/blocks.mp4
 permalink: /personal/blocks/
+
+banner: ../assets/blocks/blocks.mp4
+short: Unity extension for modeling, texturing and texture painting voxel models.
 ---
 
 ### Unity extension for modeling, texturing and texture painting voxel models.

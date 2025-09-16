@@ -7,9 +7,12 @@ image2: ../assets/dunajec/dunajec-image.jpg
 externalURL: https://juna8001.itch.io/dunajecdisaster
 externalURLtext: View on itch.io →
 permalink: /personal/dunajec/
+
+banner: ../assets/dunajec/dunajec.mp4
+short: Car-driving game made for Bratislava Game Jam 2019.
 ---
 
-### Car-driving game made for Bratislava Game Jam 2019
+### Car-driving game made for Bratislava Game Jam 2019.
 
 ### Highlights:
 * noise-based procedural mesh generation using Unity Jobs System

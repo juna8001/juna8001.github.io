@@ -8,6 +8,14 @@ grid_projects:
   - jetsoccer
   - quill
   - unitynodes
+  - letsfish
+  - letscraft
+  - deterministicphysics
+  - beamable
+  - blocks
+  - dunajec
+  - train
+  - tweetcarts
 ---
 
 # Kamil Maślanka

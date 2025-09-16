@@ -5,6 +5,9 @@ year: 2021-2022
 image1: ../assets/beamable/beam.png
 externalURL: https://beamable.com/
 permalink: /professional/beamable/
+
+banner: ../assets/beamable/beam.png
+short: Unity solution for serverless game backend.
 ---
 
 ### Unity solution for serverless game backend.
