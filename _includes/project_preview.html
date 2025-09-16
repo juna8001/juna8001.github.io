@@ -49,11 +49,7 @@
     </div>
     {% endif %}
 
-    {% capture desc_content %}
-    {% include {{ p.content }} %}
-    {% endcapture %}
-
-    {{ desc_content | strip | markdownify }}
+    {{ p.content | markdownify }}
 
     <div class="project-button-row">
 
