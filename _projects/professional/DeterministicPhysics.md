@@ -1,12 +1,10 @@
 ---
-title: "Dark Sky"
-slug: "darksky"
-year: 2024
-image1: ../assets/dark_sky/DarkSky_Keyart.png
-video2: ../assets/dark_sky/DarkSky_Combat_BossAttack.mp4
-externalURL: https://store.steampowered.com/app/1454960/Dark_Sky/
-externalURLtext: "View on itch.io →"
-permalink: /professional/dark-sky/
+title: "Deterministic Physics"
+slug: "deterministicphysics"
+year: 2020
+image1: ../assets/deterministic_physics/df.png
+image2: ../assets/deterministic_physics/grid.jpg
+permalink: /professional/deterministic-physics/
 ---
 
 ### Deterministic 3D physics for Unity with perfect simulation prediction. Developed for multiplayer golf game.
