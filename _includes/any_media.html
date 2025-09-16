@@ -1,0 +1,20 @@
+{% comment %}
+
+Usage:
+
+{% include any_media.html src="/assets/path/file.png" class="my-class" alt="Optional description" %}
+
+{% endcomment %}
+
+{% assign ext = include.src | split: '.' | last | downcase %}
+{% assign alt_text = include.alt | default: "" %}
+{% assign css_class = include.class | default: "" %}
+
+{% if ext == "mp4" or ext == "webm" or ext == "ogg" %}
+  <video controls playsinline class="{{ css_class }}">
+    <source src="{{ include.src | relative_url }}" type="video/{{ ext }}">
+    Your browser does not support the video tag.
+  </video>
+{% else %}
+  <img src="{{ include.src | relative_url }}" alt="{{ alt_text }}" class="{{ css_class }}">
+{% endif %}

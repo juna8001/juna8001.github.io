@@ -1,0 +1,67 @@
+{% comment %}
+
+Usage:
+
+{% include project_rect.html project="test" %}
+
+{% endcomment %}
+
+{% assign p = site.projects | where: "slug", include.project | first %}
+
+<a href="{{ p.url | relative_url }}" class="project-rect">
+  {% include any_media.html src=p.banner class="project-rect-banner" %}
+  <div class="project-rect-overlay">
+    <h2 class="project-rect-title">{{ p.title }}</h2>
+    <p class="project-rect-desc">{{ p.short }}</p>
+  </div>
+</a>
+
+<style>
+    
+.project-rect {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.project-rect-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-rect-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.project-rect:hover .project-rect-overlay {
+  opacity: 1;
+}
+
+/* Empty styles to be customized later */
+.project-rect-title {
+}
+
+.project-rect-desc {
+}
+</style>

@@ -7,6 +7,9 @@ video2: ../assets/dark_sky/DarkSky_Combat_BossAttack.mp4
 externalURL: https://store.steampowered.com/app/1454960/Dark_Sky/
 externalURLtext: "View on itch.io →"
 permalink: /professional/dark-sky/
+
+banner: ../assets/dark_sky/DarkSky_Combat_BossAttack.mp4
+short: A card based RPG adventure game.
 ---
 
 ### A card based RPG adventure game.

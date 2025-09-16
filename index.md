@@ -7,3 +7,5 @@ tags: [unity, gamedev, game, development, hire, developer, godot, indie, design,
 # Kamil Maślanka
 
 TODO
+
+{% include project_rect.html project="darksky" %}
