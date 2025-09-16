@@ -5,6 +5,7 @@ year: 2024
 image1: ../assets/unity_nodes/un-preview.png
 image2: ../assets/unity_nodes/un-graph.png
 permalink: /personal/unity-nodes/
+tags: [personal, tool, unity]
 
 banner: ../assets/unity_nodes/un-graph.png
 short: Custom multi-purpose graph editor for Unity.

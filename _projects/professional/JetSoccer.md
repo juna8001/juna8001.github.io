@@ -6,7 +6,7 @@ video1: ../assets/jet_soccer/js-menu.mp4
 video2: ../assets/jet_soccer/js-trailer.mp4
 externalURL: https://store.steampowered.com/app/2472670/Jet_Soccer/
 permalink: /professional/jet-soccer/
-tags: [professional]
+tags: [professional, game, unity, vfx]
 
 banner: ../assets/jet_soccer/js-trailer.mp4
 short: Multiplayer mix of arcade soccer and aerial combat.

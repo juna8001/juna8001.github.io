@@ -7,6 +7,7 @@ image2: ../assets/train/train2.png
 externalURL: https://juna8001.itch.io/gra-o-pocigu
 externalURLtext: View on itch.io →
 permalink: /personal/train/
+tags: [personal, gamejam, game, unity, vfx]
 
 banner: ../assets/train/train1.png
 short: The winner of TK Game Jam 2018.

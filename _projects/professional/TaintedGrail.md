@@ -6,7 +6,7 @@ video1: ../assets/tainted_grail/TRAILER_30s_Cut_1350.mp4
 video2: ../assets/tainted_grail/TRAILER_15s_Cut_1080.mp4
 externalURL: https://store.steampowered.com/app/1199030/Tainted_Grail_Conquest/
 permalink: /professional/tainted-grail/
-tags: [professional]
+tags: [professional, game, unity]
 
 banner: ../assets/tainted_grail/TRAILER_15s_Cut_1080.mp4
 short: A unique, infinitely replayable, story-driven hybrid between a deck-building roguelike and an RPG game.

@@ -7,6 +7,7 @@ image2: ../assets/dunajec/dunajec-image.jpg
 externalURL: https://juna8001.itch.io/dunajecdisaster
 externalURLtext: View on itch.io →
 permalink: /personal/dunajec/
+tags: [personal, gamejam, game, unity, vfx]
 
 banner: ../assets/dunajec/dunajec.mp4
 short: Car-driving game made for Bratislava Game Jam 2019.
