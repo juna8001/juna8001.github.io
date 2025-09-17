@@ -10,10 +10,11 @@ Usage:
 {% assign alt_text = include.alt | default: "" %}
 {% assign css_class = include.class | default: "" %}
 
+<div class="any-media {{ css_class }}">
 {% if ext == "mp4" or ext == "webm" or ext == "ogg" %}
   <video 
   autoplay loop muted playsinline 
-  class="any-media {{ css_class }}"
+  class="any-media-content"
   {% if include.poster %}poster="{{ include.poster | relative_url }}"{% endif %}
   >
     <source src="{{ include.src | relative_url }}" type="video/{{ ext }}">
@@ -24,3 +25,4 @@ Usage:
   alt="{{ alt_text }}" 
   class="any-media {{ css_class }}">
 {% endif %}
+</div>
