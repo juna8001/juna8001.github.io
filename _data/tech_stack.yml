@@ -5,7 +5,7 @@
       icon: /assets/icons/unity.png
     - name: Godot
       icon: /assets/icons/godot.png
-    - name: Playcanvas
+    - name: PlayCanvas
       icon: /assets/icons/playcanvas.png
     - name: Cocos 2D
       icon: /assets/icons/cocos.png
@@ -65,3 +65,14 @@
       icon: /assets/icons/unity.png
     - name: Photon Fusion
       icon: /assets/icons/unity.png
+- category: Other Tools
+  class: other-tools
+  items:
+    - name: Rider
+      icon: /assets/icons/rider.png
+    - name: Jira
+      icon: /assets/icons/jira.png
+    - name: Docker
+      icon: /assets/icons/docker.png
+    - name: Postman
+      icon: /assets/icons/postman.png
