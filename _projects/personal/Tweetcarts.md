@@ -9,6 +9,7 @@ permalink: /personal/tweetcarts/
 tags: [personal, vfx]
 
 banner: ../assets/tweetcarts/snails_0.gif
+poster: ../assets/tweetcarts/poster.jpg
 short: Visual effects made in Pico-8 that can fit inside one tweet.
 ---
 

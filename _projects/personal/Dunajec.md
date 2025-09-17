@@ -10,6 +10,7 @@ permalink: /personal/dunajec/
 tags: [personal, gamejam, game, unity, vfx]
 
 banner: ../assets/dunajec/dunajec.mp4
+poster: ../assets/dunajec/poster.jpg
 short: Car-driving game made for Bratislava Game Jam 2019.
 ---
 

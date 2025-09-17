@@ -9,6 +9,7 @@ permalink: /professional/lets-fish/
 tags: [professional, game, unity]
 
 banner: ../assets/lets_fish/letsfishtrailer.mp4
+poster: ../assets/lets_fish/poster.jpg
 short: Popular fishing simulator for IOS and Android.
 ---
 

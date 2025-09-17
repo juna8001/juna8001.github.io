@@ -8,6 +8,7 @@ permalink: /personal/unity-nodes/
 tags: [personal, tool, unity]
 
 banner: ../assets/unity_nodes/un-graph.png
+poster: ../assets/unity_nodes/poster.jpg
 short: Custom multi-purpose graph editor for Unity.
 ---
 

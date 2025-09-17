@@ -9,6 +9,7 @@ permalink: /professional/jet-soccer/
 tags: [professional, game, unity, vfx]
 
 banner: ../assets/jet_soccer/js-trailer.mp4
+poster: ../assets/jet_soccer/poster.jpg
 short: Multiplayer mix of arcade soccer and aerial combat.
 ---
 

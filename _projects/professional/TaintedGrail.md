@@ -9,6 +9,7 @@ permalink: /professional/tainted-grail/
 tags: [professional, game, unity]
 
 banner: ../assets/tainted_grail/TRAILER_15s_Cut_1080.mp4
+poster: ../assets/tainted_grail/poster.jpg
 short: A unique, infinitely replayable, story-driven hybrid between a deck-building roguelike and an RPG game.
 ---
 

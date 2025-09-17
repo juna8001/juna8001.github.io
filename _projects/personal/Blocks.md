@@ -8,6 +8,7 @@ permalink: /personal/blocks/
 tags: [personal, tool, unity]
 
 banner: ../assets/blocks/blocks.mp4
+poster: ../assets/blocks/poster.jpg
 short: Unity extension for modeling, texturing and texture painting voxel models.
 ---
 

@@ -8,6 +8,7 @@ permalink: /professional/lets-craft/
 tags: [professional, game]
 
 banner: ../assets/lets_craft/letscraftvideo.mp4
+poster: ../assets/lets_craft/poster.jpg
 short: Minecraft-like game for Facebook Instant Games.
 ---
 

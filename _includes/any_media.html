@@ -11,7 +11,11 @@ Usage:
 {% assign css_class = include.class | default: "" %}
 
 {% if ext == "mp4" or ext == "webm" or ext == "ogg" %}
-  <video autoplay loop muted playsinline class="{{ css_class }}">
+  <video 
+  autoplay loop muted playsinline 
+  class="{{ css_class }}"
+  {% if include.poster %}poster="{{ include.poster | relative_url }}"{% endif %}
+  >
     <source src="{{ include.src | relative_url }}" type="video/{{ ext }}">
     Your browser does not support the video tag.
   </video>

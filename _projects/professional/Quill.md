@@ -9,6 +9,7 @@ permalink: /professional/quill/
 tags: [professional, tool, unity]
 
 banner: ../assets/quill/Locks.mp4
+poster: ../assets/quill/poster.jpg
 short: Unity plugin for adding notes, comments and locks to assets in real time.
 ---
 

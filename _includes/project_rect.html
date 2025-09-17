@@ -10,7 +10,7 @@ Usage:
 
 <a href="{{ p.url | relative_url }}" class="project-rect">
     <div class="project-rect-banner">
-        {% include any_media.html src=p.banner %}
+        {% include any_media.html src=p.banner poster=p.poster %}
     </div>
     <div class="project-rect-overlay">
         <h2 class="project-rect-title">{{ p.title }}</h2>

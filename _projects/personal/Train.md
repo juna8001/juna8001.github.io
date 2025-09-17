@@ -10,6 +10,7 @@ permalink: /personal/train/
 tags: [personal, gamejam, game, unity, vfx]
 
 banner: ../assets/train/train1.png
+poster: ../assets/train/poster.jpg
 short: The winner of TK Game Jam 2018.
 ---
 

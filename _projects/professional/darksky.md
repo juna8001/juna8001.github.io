@@ -10,6 +10,7 @@ permalink: /professional/dark-sky/
 tags: [professional, game, unity]
 
 banner: ../assets/dark_sky/DarkSky_Combat_BossAttack.mp4
+poster: ../assets/dark_sky/poster.jpg
 short: A card based RPG adventure game.
 ---
 
