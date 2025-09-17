@@ -43,6 +43,10 @@
     transform: rotateY(180deg);
 }
 
+.card-back:hover {
+    background: #cbcbcb;
+}
+
 /* TECH */
 
 .tech-stack-grid {
