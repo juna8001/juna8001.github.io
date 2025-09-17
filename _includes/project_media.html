@@ -3,10 +3,10 @@
 {% if p.media1 or p.media2 %}
   <div class="project-media-row">
     {% if p.media1 %}
-      {% include any_media.html src=p.media1 poster=p.poster %}
+      {% include any_media.html src=p.media1 poster=p.poster class="project-media-item" %}
     {% endif %}
     {% if p.media2 %}
-      {% include any_media.html src=p.media2 poster=p.poster %}
+      {% include any_media.html src=p.media2 poster=p.poster class="project-media-item" %}
     {% endif %}
   </div>
 {% endif %}
@@ -14,10 +14,10 @@
 {% if p.media3 or p.media4 %}
   <div class="project-media-row">
     {% if p.media3 %}
-      {% include any_media.html src=p.media3 poster=p.poster %}
+      {% include any_media.html src=p.media3 poster=p.poster class="project-media-item" %}
     {% endif %}
     {% if p.media4 %}
-      {% include any_media.html src=p.media4 poster=p.poster %}
+      {% include any_media.html src=p.media4 poster=p.poster class="project-media-item" %}
     {% endif %}
   </div>
 {% endif %}

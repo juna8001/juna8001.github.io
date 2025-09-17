@@ -13,12 +13,14 @@ Usage:
 {% if ext == "mp4" or ext == "webm" or ext == "ogg" %}
   <video 
   autoplay loop muted playsinline 
-  class="{{ css_class }}"
+  class="any-media {{ css_class }}"
   {% if include.poster %}poster="{{ include.poster | relative_url }}"{% endif %}
   >
     <source src="{{ include.src | relative_url }}" type="video/{{ ext }}">
     Your browser does not support the video tag.
   </video>
 {% else %}
-  <img src="{{ include.src | relative_url }}" alt="{{ alt_text }}" class="{{ css_class }}">
+  <img src="{{ include.src | relative_url }}" 
+  alt="{{ alt_text }}" 
+  class="any-media {{ css_class }}">
 {% endif %}
