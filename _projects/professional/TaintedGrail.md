@@ -6,7 +6,7 @@ media1: ../assets/tainted_grail/TRAILER_30s_Cut_1350.mp4
 media2: ../assets/tainted_grail/TRAILER_15s_Cut_1080.mp4
 externalURL: https://store.steampowered.com/app/1199030/Tainted_Grail_Conquest/
 permalink: /professional/tainted-grail/
-tags: [professional, game, unity]
+tags: [professional, game, unity, fav]
 
 banner: ../assets/tainted_grail/TRAILER_15s_Cut_1080.mp4
 poster: ../assets/tainted_grail/poster.jpg

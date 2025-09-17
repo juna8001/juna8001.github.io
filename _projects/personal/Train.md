@@ -7,7 +7,7 @@ media2: ../assets/train/train2.png
 externalURL: https://juna8001.itch.io/gra-o-pocigu
 externalURLtext: View on itch.io →
 permalink: /personal/train/
-tags: [personal, gamejam, game, unity, vfx]
+tags: [personal, gamejam, game, unity, vfx, fav]
 
 banner: ../assets/train/train1.png
 poster: ../assets/train/poster.jpg

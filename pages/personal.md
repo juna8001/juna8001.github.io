@@ -3,6 +3,7 @@ layout: default
 title: "Personal Projects"
 permalink: /personal/
 ---
+{% comment %}
 
 {% include project_preview.html project="unitynodes" %}
 
@@ -13,3 +14,5 @@ permalink: /personal/
 {% include project_preview.html project="dunajec" %}
 
 {% include project_preview.html project="tweetcarts" %}
+
+{% endcomment %}

@@ -5,7 +5,7 @@ year: 2024
 media1: ../assets/unity_nodes/un-preview.png
 media2: ../assets/unity_nodes/un-graph.png
 permalink: /personal/unity-nodes/
-tags: [personal, tool, unity]
+tags: [personal, tool, unity, fav]
 
 banner: ../assets/unity_nodes/un-graph.png
 poster: ../assets/unity_nodes/poster.jpg

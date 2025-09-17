@@ -6,7 +6,7 @@ media1: ../assets/quill/Locks.mp4
 media2: ../assets/quill/Comments.mp4
 externalURL: https://www.quill4.dev/
 permalink: /professional/quill/
-tags: [professional, tool, unity]
+tags: [professional, tool, unity, fav]
 
 banner: ../assets/quill/Locks.mp4
 poster: ../assets/quill/poster.jpg

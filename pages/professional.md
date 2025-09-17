@@ -4,6 +4,8 @@ title: "Professional Projects"
 permalink: /professional/
 ---
 
+{% comment %}
+
 {% include project_preview.html project="darksky" %}
 
 {% include project_preview.html project="taintedgrail" %}
@@ -20,3 +22,4 @@ permalink: /professional/
 
 {% include project_preview.html project="letsfish" %}
 
+{% endcomment %}
