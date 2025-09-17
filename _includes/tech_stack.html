@@ -6,14 +6,14 @@
                 <h3>{{ category.category }}</h3>
             </div>
             <div class="card-back">
-                <ul>
+                <div class="tech-list">
                     {% for item in category.items %}
-                    <li>
+                    <div class="tech-item">
                         <img src="{{ item.icon | relative_url }}" alt="{{ item.name }}" class="tech-icon">
-                        {{ item.name }}
-                    </li>
+                        <p class="tech-name">{{ item.name }}</p>
+                    </div>
                     {% endfor %}
-                </ul>
+                </div>
             </div>
         </div>
     </div>
