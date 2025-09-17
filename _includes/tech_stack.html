@@ -1,18 +1,20 @@
 <div class="tech-stack-grid">
     {% for category in site.data.tech_stack %}
-    <div class="card {{ category.class | default: '' }}">
-        <div class="card-inner">
-            <div class="card-front">
-                <h3>{{ category.category }}</h3>
-            </div>
-            <div class="card-back">
-                <div class="tech-list">
-                    {% for item in category.items %}
-                    <div class="tech-item">
-                        <img src="{{ item.icon | relative_url }}" alt="{{ item.name }}" class="tech-icon">
-                        <p class="tech-name">{{ item.name }}</p>
+    <div class="tech-stack-category">
+        <div class="card {{ category.class | default: '' }}">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>{{ category.category }}</h3>
+                </div>
+                <div class="card-back">
+                    <div class="tech-list">
+                        {% for item in category.items %}
+                        <div class="tech-item">
+                            <img src="{{ item.icon | relative_url }}" alt="{{ item.name }}" class="tech-icon">
+                            <p class="tech-name">{{ item.name }}</p>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
                 </div>
             </div>
         </div>

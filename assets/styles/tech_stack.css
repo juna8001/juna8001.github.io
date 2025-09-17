@@ -44,13 +44,14 @@
 .tech-stack-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+    gap: 2rem 1rem;
 }
 
 .tech-list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
     height: 84%;
 }
 
