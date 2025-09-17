@@ -1,0 +1,32 @@
+.project-button-row {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin: 1rem 0;
+    }
+
+    .project-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: .5rem;
+        padding: .6rem 1.2rem;
+        border: 2px solid var(--acent-color);
+        border-radius: 8px;
+        background-color: var(--content-color);
+        color: var(--main-color);
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.2s;
+    }
+
+    .project-btn:hover {
+        background-color: var(--acent-color);
+        color: var(--content-color);
+    }
+
+    .project-btn.steam img {
+        width: 20px;
+        height: 20px;
+        display: block;
+    }

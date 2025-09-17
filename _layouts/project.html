@@ -11,6 +11,7 @@
         <h3 class="project-year">{{ p.year }}</h3>
         {% include project_media.html project=page.slug %}
         {{ content }}
+        {% include project_buttons.html project=page.slug %}
     </main>
     {% include footer.html %}
 </body>

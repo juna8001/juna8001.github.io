@@ -1,0 +1,24 @@
+{% assign p = site.projects | where: "slug", include.project | first %}
+
+<div class="project-button-row">
+
+    {% if p.internalURL %}
+    <a class="project-btn" href="{{ p.internalURL }}">
+        {{ p.internalURLtext | default: "View Project →" }}
+    </a>
+    {% endif %}
+
+    {% if p.externalURL %}
+    <a class="project-btn" href="{{ p.externalURL }}" target="_blank" rel="noopener">
+        {{ p.externalURLtext | default: "View Project →" }}
+    </a>
+    {% endif %}
+
+    {% if p.steamURL %}
+    <a class="project-btn steam" href="{{ p.steamURL }}" target="_blank" rel="noopener">
+        <img src="/assets/icons/steam.svg" alt="Steam">
+        <span>{{ p.steamURLtext | default: "View Project →" }}</span>
+    </a>
+    {% endif %}
+
+</div>

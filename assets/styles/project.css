@@ -1,7 +1,12 @@
-.project-page .project-title{
-    
+.project-page .project-title {
+    justify-self: center;
+    font-family: var(--reckoner);
+    font-size: 44px;
+    margin: 0px;
 }
 
-.project-page .project-year{
-
+.project-page .project-year {
+    justify-self: center;
+    margin: 10px 0px;
+    font-family: var(--calluna);
 }
