@@ -1,33 +1,38 @@
 .project-grid {
-        display: grid;
-        position: relative;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1rem;
-        margin: 0 auto;
-    }
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 0 auto;
+}
 
-    .project-grid-wrapper {
-        width: 250px;
-        margin-bottom: 20px;
-    }
+.project-grid-wrapper {
+    width: 250px;
+    margin-bottom: 20px;
+}
 
-    .filter-buttons {
-        display: block;
-        gap: 0.5rem;
-        margin-bottom: 1rem;
-    }
+.filter-label {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
 
-    .filter-btn {
-        padding: 0.5rem 1rem;
-        margin-bottom: 4px;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
-        background: #ddd;
-        transition: background 0.2s;
-    }
+.filter-buttons {
+    display: block;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
 
-    .filter-btn.active {
-        background: #333;
-        color: #fff;
-    }
+.filter-btn {
+    padding: 0.5rem 1rem;
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #ddd;
+    transition: background 0.2s;
+}
+
+.filter-btn.active {
+    background: #333;
+    color: #fff;
+}
