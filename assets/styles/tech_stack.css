@@ -38,19 +38,21 @@
     transform: rotateY(180deg);
 }
 
-.tech-list{
-
+.tech-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
 }
 
-.tech-item{
-    
-}
+.tech-list {}
+
+.tech-item {}
 
 .tech-icon {
     width: auto;
-    height: 32px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
 }
 
-.tech-name{
-
-}
+.tech-name {}
