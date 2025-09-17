@@ -16,8 +16,7 @@
     display: block;
 }
 
-.project-rect-banner video,
-.project-rect-banner img {
+.project-rect-banner .anymedia {
     width: 100%;
     height: 100%;
     object-fit: cover;
