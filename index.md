@@ -18,7 +18,11 @@ grid_projects:
   - deterministicphysics
 ---
 
-# Kamil Maślanka
+# Hi! I'm Kamil
+## Game & Tools Developer
+### I specialize in Unity development, especially in small teams where I can wear many hats.
+
+### Have a look at my projects:
 
 <div>
 {% include project_grid.html %}
