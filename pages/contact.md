@@ -6,16 +6,16 @@ permalink: /contact/
 
 <div class="contact-page">
   <div class="contact-info">
-    <h1>CONTACT ME:</h1>
+    <h2>CONTACT ME:</h1>
 
     <div class="contact-method">
       {% include buttons/phone_button.html %}
-      <span>Call me at +48 123 456 789</span>
+      <span>Call me at {{ site.data.contact.phone }}</span>
     </div>
 
     <div class="contact-method">
       {% include buttons/email_button.html %}
-      <span>Email me at example@example.com</span>
+      <span>Email me at {{ site.data.contact.email }}</span>
     </div>
 
     <div class="contact-method">
@@ -30,7 +30,7 @@ permalink: /contact/
   </div>
 
   <div class="contact-form-column">
-    <h1>OR MESSAGE DIRECTLY</h1>
+    <h2>OR MESSAGE DIRECTLY:</h1>
     {% include contact_form.html %}
   </div>
 </div>
