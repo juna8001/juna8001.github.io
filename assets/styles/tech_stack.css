@@ -34,6 +34,10 @@
     color: #fff;
 }
 
+.card-front:hover {
+    background: #494949;
+}
+
 .card-back {
     background: #eee;
     transform: rotateY(180deg);
@@ -80,7 +84,7 @@
 
 /* CUSTOM STYLES */
 
-.game-engines .card-back {
+/* .game-engines .card-back {
     background: #173a65;
     color: white;
-}
+} */
