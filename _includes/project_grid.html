@@ -17,6 +17,12 @@ Then include:
         position: relative;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1rem;
+        margin: 0 auto;
+    }
+
+    .project-grid-wrapper {
+        width: 250px;
+        margin-bottom: 20px;
     }
 
     .filter-buttons {
@@ -66,9 +72,9 @@ Then include:
     var grid = document.querySelector('.project-grid');
     var iso = new Isotope(grid, {
         itemSelector: '.project-grid-wrapper',
-        layoutMode: 'fitRows',
-        fitRows: {
-            gutter: 10,
+        layoutMode: 'masonry',
+        masonry: {
+            gutter: 20,
             horizontalOrder: true
         }
     });
