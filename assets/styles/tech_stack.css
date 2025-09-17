@@ -39,20 +39,31 @@
 }
 
 .tech-stack-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
 }
 
 .tech-list {}
 
-.tech-item {}
+.tech-item {
+    display: flex;
+}
 
 .tech-icon {
     width: auto;
-    height: 20px;
+    height: 32px;
     vertical-align: middle;
     margin-right: 8px;
 }
 
-.tech-name {}
+.tech-name {
+    font-family: var(--reckoner);
+    margin: 0;
+}
+
+.card-front h3{
+    margin: 0;
+    font-family: var(--reckoner);
+    font-size: 36px;
+}
