@@ -10,7 +10,7 @@
     - name: Cocos 2D
       icon: /assets/icons/cocos.png
     - name: Pico-8
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/pico8.png
 - category: Programming Languages
   class: programming-languages
   items:
