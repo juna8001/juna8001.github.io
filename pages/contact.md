@@ -30,7 +30,7 @@ permalink: /contact/
   </div>
 
   <div class="contact-form-column">
-    <h1>Send me a message</h1>
+    <h1>OR MESSAGE DIRECTLY</h1>
     {% include contact_form.html %}
   </div>
 </div>
