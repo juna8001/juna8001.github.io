@@ -2,8 +2,8 @@
 title: "Quill"
 slug: "quill"
 year: 2025
-video1: ../assets/quill/Locks.mp4
-video2: ../assets/quill/Comments.mp4
+media1: ../assets/quill/Locks.mp4
+media2: ../assets/quill/Comments.mp4
 externalURL: https://www.quill4.dev/
 permalink: /professional/quill/
 tags: [professional, tool, unity]

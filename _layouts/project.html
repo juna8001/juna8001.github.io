@@ -6,6 +6,7 @@
 <body>
     {% include header.html %}
     <main class="site-main">
+        {% include project_media.html project=page.slug %}
         {{ content }}
     </main>
     {% include footer.html %}

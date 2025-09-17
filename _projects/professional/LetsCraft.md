@@ -2,8 +2,8 @@
 title: "Let's Craft"
 slug: "letscraft"
 year: 2019
-video1: ../assets/lets_craft/letscraftvideo.mp4
-image2: ../assets/lets_craft/letscraftimage.png
+media1: ../assets/lets_craft/letscraftvideo.mp4
+media2: ../assets/lets_craft/letscraftimage.png
 permalink: /professional/lets-craft/
 tags: [professional, game]
 

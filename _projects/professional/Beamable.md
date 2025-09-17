@@ -2,7 +2,7 @@
 title: "Beamable"
 slug: "beamable"
 year: 2021-2022
-image1: ../assets/beamable/beam.png
+media1: ../assets/beamable/beam.png
 externalURL: https://beamable.com/
 permalink: /professional/beamable/
 tags: [professional, tool, unity]

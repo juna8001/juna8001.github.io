@@ -2,8 +2,8 @@
 title: Dunajec Disaster
 slug: dunajec
 year: 2019
-video1: ../assets/dunajec/dunajec.mp4
-image2: ../assets/dunajec/dunajec-image.jpg
+media1: ../assets/dunajec/dunajec.mp4
+media2: ../assets/dunajec/dunajec-image.jpg
 externalURL: https://juna8001.itch.io/dunajecdisaster
 externalURLtext: View on itch.io →
 permalink: /personal/dunajec/

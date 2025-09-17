@@ -1,10 +1,10 @@
 ---
 title: Tweet Carts
 slug: tweetcarts
-image1: ../assets/tweetcarts/snails_0.gif
-image2: ../assets/tweetcarts/eye-1.gif
-image3: ../assets/tweetcarts/rain.gif
-image4: ../assets/tweetcarts/rotating-clepsydres_0.gif
+media1: ../assets/tweetcarts/snails_0.gif
+media2: ../assets/tweetcarts/eye-1.gif
+media3: ../assets/tweetcarts/rain.gif
+media4: ../assets/tweetcarts/rotating-clepsydres_0.gif
 permalink: /personal/tweetcarts/
 tags: [personal, vfx]
 

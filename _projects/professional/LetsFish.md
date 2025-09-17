@@ -2,8 +2,8 @@
 title: "Let's Fish"
 slug: "letsfish"
 year: 2017-2019
-video1: ../assets/lets_fish/letsfishtrailer.mp4
-image2: ../assets/lets_fish/letsfishimage.jpg
+media1: ../assets/lets_fish/letsfishtrailer.mp4
+media2: ../assets/lets_fish/letsfishimage.jpg
 externalURL: https://play.google.com/store/apps/details?id=air.com.tensquaregames.letsfish&hl=en-US
 permalink: /professional/lets-fish/
 tags: [professional, game, unity]
