@@ -35,3 +35,6 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 
 </div>
 </div>
+
+
+{% include tech_stack.html %}

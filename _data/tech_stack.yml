@@ -1,0 +1,18 @@
+- category: Game Engines
+  items:
+    - name: Unity
+      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
+    - name: Godot
+      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
+- category: Tools
+  items:
+    - name: Git
+      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
+    - name: Docker
+      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
+- category: Art
+  items:
+    - name: Blender
+      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
+    - name: Photoshop
+      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec

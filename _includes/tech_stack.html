@@ -1,0 +1,29 @@
+<div class="tech-stack-grid">
+    {% for category in site.data.tech_stack %}
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <h3>{{ category.category }}</h3>
+            </div>
+            <div class="card-back">
+                <ul>
+                    {% for item in category.items %}
+                    <li>
+                        <img src="{{ item.icon | relative_url }}" alt="{{ item.name }}" class="tech-icon">
+                        {{ item.name }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', () => {
+            card.classList.toggle('flipped');
+        });
+    });
+</script>
