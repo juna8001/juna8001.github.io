@@ -6,7 +6,7 @@ permalink: /contact/
 
 <div class="contact-page">
   <div class="contact-info">
-    <h2>CONTACT ME:</h1>
+    <h2>CONTACT ME:</h2>
 
     <div class="contact-method">
       {% include buttons/phone_button.html %}
@@ -30,7 +30,7 @@ permalink: /contact/
   </div>
 
   <div class="contact-form-column">
-    <h2>OR MESSAGE DIRECTLY:</h1>
+    <h2>OR MESSAGE DIRECTLY:</h2>
     {% include contact_form.html %}
   </div>
 </div>
