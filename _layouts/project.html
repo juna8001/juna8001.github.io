@@ -5,7 +5,8 @@
 
 <body>
     {% include header.html %}
-    <main class="site-main">
+    <main class="site-main project-page">
+        {% assign p = site.projects | where: "slug", page.slug | first %}
         <h2 class="project-title">{{ p.title }}</h2>
         <h3 class="project-year">{{ p.year }}</h3>
         {% include project_media.html project=page.slug %}
