@@ -15,39 +15,39 @@
   class: programming-languages
   items:
     - name: C#
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/csharp.png
     - name: GD Script
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/godot.png
     - name: HLSL (Shaders)
       icon: /assets/icons/unity.png
     - name: Python
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/python.png
     - name: TypeScript
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/typescript.png
     - name: LUA
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/lua.png
     - name: C++
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/cplusplus.png
 - category: Art
   class: art
   items:
     - name: Blender
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/blender.png
     - name: Gimp
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/gimp.png
     - name: Inkscape
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/inkscape.png
     - name: Magicka Voxel
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/magicka.png
 - category: Version Control
   class: version-control
   items:
     - name: Git
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/git.png
     - name: Perforce
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/perforce.png
     - name: Github Actions
-      icon: /assets/icons/unity.png
+      icon: /assets/icons/github.png
 - category: Unity Plugins
   class: unity-plugins
   items:
