@@ -14,12 +14,13 @@
 /* Separator between columns */
 .contact-info {
     border-right: 2px solid #ddd;
-    padding-right: 1.5rem;
+    padding: 0px 20px;
 }
 
 .contact-page h2 {
     font-family: var(--reckoner);
     font-weight: normal;
+    text-align: center;
 }
 
 .contact-form-column {
