@@ -1,6 +1,6 @@
 .card {
     width: 200px;
-    height: 200px;
+    height: 300px;
     perspective: 1000px;
 }
 
@@ -38,6 +38,8 @@
     transform: rotateY(180deg);
 }
 
+/* TECH */
+
 .tech-stack-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -69,4 +71,11 @@
     font-family: var(--reckoner);
     font-size: 32px;
     text-align: center;
+}
+
+/* CUSTOM STYLES */
+
+.game-engines .card-back{
+    background: #173a65;
+    color: white;
 }
