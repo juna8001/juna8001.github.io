@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-### From quirky prototypes to shipped titles - I build what makes games tick.
+## From quirky prototypes to shipped titles - I build what makes games tick.
 
 As a game developer, I’ve spent years building both commercial projects and personal experiments - always chasing that mix of fun, creativity, and solid engineering.
 
