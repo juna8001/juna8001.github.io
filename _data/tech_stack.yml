@@ -39,3 +39,31 @@
       icon: /assets/icons/unity.png
     - name: Magicka Voxel
       icon: /assets/icons/unity.png
+- category: Version Control
+  class: version-control
+  items:
+    - name: Git
+      icon: /assets/icons/unity.png
+    - name: Perforce
+      icon: /assets/icons/unity.png
+    - name: Github Actions
+      icon: /assets/icons/unity.png
+- category: Unity Plugins
+  class: unity-plugins
+  items:
+    - name: UniTask
+      icon: /assets/icons/unity.png
+    - name: Odin Inspector
+      icon: /assets/icons/unity.png
+    - name: Amplify Shader
+      icon: /assets/icons/unity.png
+    - name: DoTween
+      icon: /assets/icons/unity.png
+    - name: Prime Tween
+      icon: /assets/icons/unity.png
+    - name: Cinemachine
+      icon: /assets/icons/unity.png
+    - name: Photon Fusion
+      icon: /assets/icons/unity.png
+    - name: Mirror
+      icon: /assets/icons/unity.png

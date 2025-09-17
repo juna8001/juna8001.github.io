@@ -23,6 +23,7 @@
     height: 100%;
     backface-visibility: hidden;
     border-radius: 12px;
+    border: 4px solid var(--acent-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +48,10 @@
 }
 
 .tech-list {
-    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 84%;
 }
 
 .tech-item {
@@ -66,7 +70,7 @@
     margin: 0;
 }
 
-.card-front h3{
+.card-front h3 {
     margin: 0;
     font-family: var(--reckoner);
     font-size: 32px;
@@ -75,7 +79,7 @@
 
 /* CUSTOM STYLES */
 
-.game-engines .card-back{
+.game-engines .card-back {
     background: #173a65;
     color: white;
 }
