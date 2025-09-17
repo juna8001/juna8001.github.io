@@ -1,18 +1,37 @@
 - category: Game Engines
+  class: game-engines
   items:
     - name: Unity
-      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
+      icon: /assets/icons/unity.png
     - name: Godot
-      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
-- category: Tools
+      icon: /assets/icons/godot.png
+    - name: Playcanvas
+      icon: /assets/icons/playcanvas.png
+    - name: Cocos 2D
+      icon: /assets/icons/cocos.png
+    - name: Pico-8
+      icon: /assets/icons/unity.png
+- category: Programming Languages
+  class: programming-languages
   items:
-    - name: Git
-      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
-    - name: Docker
-      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
+    - name: C#
+      icon: /assets/icons/unity.png
+    - name: GD Script
+      icon: /assets/icons/unity.png
+    - name: HLSL (Shaders)
+      icon: /assets/icons/unity.png
+    - name: Python
+      icon: /assets/icons/unity.png
+    - name: TypeScript
+      icon: /assets/icons/unity.png
+    - name: LUA
+      icon: /assets/icons/unity.png
+    - name: C++
+      icon: /assets/icons/unity.png
 - category: Art
+  class: art
   items:
     - name: Blender
-      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
-    - name: Photoshop
-      icon: https://preview.redd.it/81nwobjayd181.png?width=512&format=png&auto=webp&s=027cac2b3ddd6f7b3f5e60a783706d1d0e8151ec
+      icon: /assets/icons/unity.png
+    - name: Gimp
+      icon: /assets/icons/unity.png

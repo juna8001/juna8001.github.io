@@ -1,6 +1,6 @@
 <div class="tech-stack-grid">
     {% for category in site.data.tech_stack %}
-    <div class="card">
+    <div class="card {{ category.class | default: '' }}">
         <div class="card-inner">
             <div class="card-front">
                 <h3>{{ category.category }}</h3>
