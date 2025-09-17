@@ -81,6 +81,7 @@
 
 .card-front h3 {
     margin: 0;
+    padding: 10px;
     font-family: var(--reckoner);
     font-size: 32px;
     text-align: center;

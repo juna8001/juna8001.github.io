@@ -38,8 +38,8 @@ Whether it’s a full game, a quirky prototype, or a tool that helps other devs,
 
 ---
 
-## My Stack
+## My Tech Stack
 
-Click each card to see.
+Click a card to see what’s inside.
 
 {% include tech_stack.html %}
