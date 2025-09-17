@@ -35,3 +35,7 @@
       icon: /assets/icons/unity.png
     - name: Gimp
       icon: /assets/icons/unity.png
+    - name: Inkscape
+      icon: /assets/icons/unity.png
+    - name: Magicka Voxel
+      icon: /assets/icons/unity.png
