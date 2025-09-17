@@ -4,38 +4,4 @@ title: "Contact"
 permalink: /contact/
 ---
 
-<form action="https://formspree.io/f/xqadvyww" method="POST" class="contact-form">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="_replyto" required>
-
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" rows="5" required></textarea>
-
-  <button type="submit">Send</button>
-</form>
-
-<div class="form-success" style="display:none;">Thank you! Your message has been sent.</div>
-
-<script>
-  const form = document.querySelector('.contact-form');
-  const successMessage = document.querySelector('.form-success');
-
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const data = new FormData(form);
-    const response = await fetch(form.action, {
-      method: 'POST',
-      body: data,
-      headers: { 'Accept': 'application/json' }
-    });
-    if (response.ok) {
-      form.reset();
-      successMessage.style.display = 'block';
-    } else {
-      alert('Oops! There was a problem submitting your form');
-    }
-  });
-</script>
+{% include contact_form.html %}
