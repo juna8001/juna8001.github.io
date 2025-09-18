@@ -9,49 +9,55 @@ permalink: /blog/
 
 <!-- Template for each post -->
 <template id="post-template">
-  <div class="post-card">
-    <img class="post-image" alt="">
-    <h2><a class="post-link"></a></h2>
-    <p class="post-excerpt"></p>
-  </div>
+  <a class="post-card" href="#">
+    <div class="post-image-container">
+      <img class="post-image" alt="">
+    </div>
+    <div class="post-content">
+      <h2 class="post-title"></h2>
+      <p class="post-excerpt"></p>
+    </div>
+    </div>
 </template>
 
 <script>
-async function loadPosts() {
-  try {
-    const res = await fetch("/posts.json");
-    if (!res.ok) throw new Error("Failed to fetch posts.json");
-    const posts = await res.json();
+  async function loadPosts() {
+    try {
+      const res = await fetch("/posts.json");
+      if (!res.ok) throw new Error("Failed to fetch posts.json");
+      const posts = await res.json();
 
-    const container = document.getElementById("posts");
-    const template = document.getElementById("post-template");
+      const container = document.getElementById("posts");
+      const template = document.getElementById("post-template");
 
-    posts.forEach(post => {
-      const node = template.content.cloneNode(true);
+      posts.forEach(post => {
+        const node = template.content.cloneNode(true);
 
-      const link = node.querySelector(".post-link");
-      link.href = post.url;
-      link.textContent = post.title;
+        const card = node.querySelector(".post-card");
+        card.href = post.url;
 
-      const excerpt = node.querySelector(".post-excerpt");
-      excerpt.textContent = post.excerpt || "";
+        const title = node.querySelector(".post-title");
+        title.textContent = post.title || "";
 
-      const img = node.querySelector(".post-image");
-      if (post.image) {
-        img.src = post.image;
-        img.alt = post.title;
-        img.loading = "lazy";
-      } else {
-        img.remove();
-      }
+        const excerpt = node.querySelector(".post-excerpt");
+        excerpt.textContent = post.excerpt || "";
 
-      container.appendChild(node);
-    });
-  } catch (err) {
-    console.error("Error loading posts:", err);
-    document.getElementById("posts").innerHTML = "<p>Could not load posts.</p>";
+        const img = node.querySelector(".post-image");
+        if (post.image) {
+          img.src = post.image;
+          img.alt = post.title;
+          img.loading = "lazy";
+        } else {
+          img.remove();
+        }
+
+        container.appendChild(node);
+      });
+    } catch (err) {
+      console.error("Error loading posts:", err);
+      document.getElementById("posts").innerHTML = "<p>Could not load posts.</p>";
+    }
   }
-}
 
-loadPosts();
+  loadPosts();
 </script>
