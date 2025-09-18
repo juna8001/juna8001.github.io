@@ -46,7 +46,7 @@ permalink: /blog/
         const date = node.querySelector(".post-date");
         const postDate = new Date(post.date);
         const options = { year: 'numeric', month: 'short', day: 'numeric' };
-        const formattedDate = dateObj.toLocaleDateString('en-US', options);
+        const formattedDate = postDate.toLocaleDateString('en-US', options);
         date.textContent = formattedDate || "";
         // IMAGE
         const img = node.querySelector(".post-image");
