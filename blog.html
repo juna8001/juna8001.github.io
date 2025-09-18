@@ -6,10 +6,21 @@ permalink: /blog/
 
 <h1>Blog</h1>
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <article>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <p>{{ post.excerpt }}</p>
     <p><small>Published on {{ post.date | date: "%B %-d, %Y" }}</small></p>
   </article>
 {% endfor %}
+
+{% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">← Previous</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Next →</a>
+    {% endif %}
+  </nav>
+{% endif %}
