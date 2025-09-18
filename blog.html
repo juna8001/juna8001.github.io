@@ -16,6 +16,7 @@ permalink: /blog/
     <div class="post-content">
       <h2 class="post-title"></h2>
       <p class="post-excerpt"></p>
+      <p class="post-date"></p>
     </div>
     </div>
 </template>
@@ -32,16 +33,22 @@ permalink: /blog/
 
       posts.forEach(post => {
         const node = template.content.cloneNode(true);
-
+        // URL
         const card = node.querySelector(".post-card");
         card.href = post.url;
-
+        // TITLE
         const title = node.querySelector(".post-title");
         title.textContent = post.title || "";
-
+        // EXCERPT
         const excerpt = node.querySelector(".post-excerpt");
         excerpt.textContent = post.excerpt || "";
-
+        // DATE
+        const date = node.querySelector(".post-date");
+        const postDate = new Date(post.date);
+        const options = { year: 'numeric', month: 'short', day: 'numeric' };
+        const formattedDate = dateObj.toLocaleDateString('en-US', options);
+        date.textContent = formattedDate || "";
+        // IMAGE
         const img = node.querySelector(".post-image");
         if (post.image) {
           img.src = post.image;
