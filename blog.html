@@ -3,24 +3,32 @@ layout: default
 title: "Blog"
 permalink: /blog/
 ---
+<h1>Blog Debug</h1>
 
-<h1>Blog</h1>
+<h2>Paginator Info</h2>
+<ul>
+  <li>Page exists? {% if paginator %}YES{% else %}NO{% endif %}</li>
+  {% if paginator %}
+    <li>Total posts in paginator: {{ paginator.posts | size }}</li>
+    <li>Total pages: {{ paginator.total_pages }}</li>
+    <li>Current page: {{ paginator.page }}</li>
+    <li>Previous page path: {{ paginator.previous_page_path }}</li>
+    <li>Next page path: {{ paginator.next_page_path }}</li>
+  {% endif %}
+</ul>
 
-{% for post in paginator.posts %}
-  <article>
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+<h2>Posts in paginator</h2>
+{% if paginator and paginator.posts %}
+  {% for post in paginator.posts %}
+    <h3>{{ post.title }}</h3>
     <p>{{ post.excerpt }}</p>
-    <p><small>Published on {{ post.date | date: "%B %-d, %Y" }}</small></p>
-  </article>
-{% endfor %}
-
-{% if paginator.total_pages > 1 %}
-  <nav class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}">← Previous</a>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}">Next →</a>
-    {% endif %}
-  </nav>
+  {% endfor %}
+{% else %}
+  <p>No posts found in paginator.</p>
 {% endif %}
+
+<h2>All Posts (non-paginated)</h2>
+{% for post in site.posts %}
+  <h3>{{ post.title }}</h3>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}

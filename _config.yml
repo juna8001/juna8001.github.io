@@ -11,6 +11,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-paginate
+  
+# Pagination
+paginate: 6
+paginate_path: "/blog/page:num"
+
 
 # Collections / directories
 collections:
@@ -22,10 +27,6 @@ defaults:
       type: "projects"
     values:
       layout: "project"   # optional: auto-assign layout to all project pages
-
-# Pagination
-paginate: 6
-paginate_path: "/blog/page:num"
 
 # Markdown settings
 markdown: kramdown
