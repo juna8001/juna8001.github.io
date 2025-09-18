@@ -12,6 +12,13 @@
     border-radius: 40px;
     border: 4px solid var(--acent-color);
     overflow: hidden;
+    transition: scale 0.3s ease;
+}
+
+.post-card:hover{
+    background: var(--content-color-hover);
+    text-decoration-color: var(--main-color);
+    scale: 1.03;
 }
 
 .post-image-container {
