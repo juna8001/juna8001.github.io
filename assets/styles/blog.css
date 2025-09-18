@@ -39,6 +39,7 @@
 
 .post-content {
     padding: 10px 20px;
+    position: relative;
 }
 
 .post-title {
@@ -51,4 +52,15 @@
     margin: 0;
     padding: 0;
     color: var(--main-color);
+}
+
+.post-date {
+    position: absolute;
+    top: -0px;
+    right: -0px;
+    margin: 0; /* remove default margin */
+    padding: 0.5rem; /* optional, for spacing from edges */
+    color: var(--main-color-hover);
+    font-size: 14px
+
 }
