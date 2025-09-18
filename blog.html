@@ -2,34 +2,45 @@
 layout: default
 title: "Blog"
 permalink: /blog/
-paginate: 6
 ---
-<h1>Blog Debug</h1>
 
-<h2>Paginator Info</h2>
-<ul>
-  <li>Page exists? {% if paginator %}YES{% else %}NO{% endif %}</li>
-  {% if paginator %}
-    <li>Total posts in paginator: {{ paginator.posts | size }}</li>
-    <li>Total pages: {{ paginator.total_pages }}</li>
-    <li>Current page: {{ paginator.page }}</li>
-    <li>Previous page path: {{ paginator.previous_page_path }}</li>
-    <li>Next page path: {{ paginator.next_page_path }}</li>
-  {% endif %}
-</ul>
+<h1>Blog</h1>
+<div id="posts"></div>
 
-<h2>Posts in paginator</h2>
-{% if paginator and paginator.posts %}
-  {% for post in paginator.posts %}
-    <h3>{{ post.title }}</h3>
-    <p>{{ post.excerpt }}</p>
-  {% endfor %}
-{% else %}
-  <p>No posts found in paginator.</p>
-{% endif %}
+<script>
+async function loadPosts() {
+  try {
+    const res = await fetch("/posts.json");
+    if (!res.ok) throw new Error("Failed to fetch posts.json");
+    const posts = await res.json();
 
-<h2>All Posts (non-paginated)</h2>
-{% for post in site.posts %}
-  <h3>{{ post.title }}</h3>
-  <p>{{ post.excerpt }}</p>
-{% endfor %}
+    const container = document.getElementById("posts");
+    container.innerHTML = ""; // clear just in case
+
+    posts.forEach(post => {
+      const div = document.createElement("div");
+      div.className = "post-card";
+
+      div.innerHTML = `
+        <h2><a href="${post.url}">${post.title}</a></h2>
+        <p>${post.excerpt || ""}</p>
+      `;
+
+      if (post.image) {
+        const img = document.createElement("img");
+        img.src = post.image;
+        img.alt = post.title;
+        img.loading = "lazy"; // load only when visible
+        div.prepend(img);
+      }
+
+      container.appendChild(div);
+    });
+  } catch (err) {
+    console.error("Error loading posts:", err);
+    document.getElementById("posts").innerHTML = "<p>Could not load posts.</p>";
+  }
+}
+
+loadPosts();
+</script>
