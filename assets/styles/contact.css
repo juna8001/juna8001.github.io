@@ -46,6 +46,7 @@
 @media (max-width: 768px) {
     .contact-page {
         flex-direction: column;
+        align-content: center;
     }
 
     .contact-info {
@@ -58,5 +59,9 @@
     .contact-form-column {
         padding-left: 0;
         padding-top: 1.5rem;
+    }
+
+    .contact-form {
+        margin: 0px 20px;
     }
 }
