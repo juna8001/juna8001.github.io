@@ -2,18 +2,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% seo %}
-    <!-- <link rel="stylesheet" href="{{ '/assets/styles/colors.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/styles/header.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/styles/footer.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/styles/typography.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/styles/project_grid.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/styles/project_media.css' | relative_url }}"> -->
     {% for file in site.static_files %}
     {% if file.path contains '/assets/styles/' and file.extname == '.css' %}
     <link rel="stylesheet" href="{{ file.path | relative_url }}">
     {% endif %}
     {% endfor %}
+
+    <link rel="icon" type="image/png" href="{{ '/assets/icons/unity.png' | relative_url }}">
 
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 </head>
