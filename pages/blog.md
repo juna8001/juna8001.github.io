@@ -6,14 +6,23 @@ permalink: /blog/
 
 # Blog
 
-<p>Welcome to my blog! Here are my latest posts:</p>
+<h1>Blog</h1>
 
 <ul>
-{% for post in site.posts %}
-  <li style="margin-bottom: 15px;">
-    <a href="{{ post.url }}" style="font-weight: bold; font-size: 1.1em; color: #222;">{{ post.title }}</a><br>
-    <small style="color: #666;">{{ post.date | date: "%b %-d, %Y" }}</small>
-    <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
-  </li>
-{% endfor %}
+  {% for post in paginator.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+  {% endfor %}
 </ul>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">Previous</a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  {% endif %}
+</div>
