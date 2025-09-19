@@ -1,0 +1,19 @@
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+<script>
+    (async () => {
+        const highlighter = await shiki.getHighlighter({ theme: 'dark-plus' });
+        // themes: 'github-dark', 'vitesse-dark', 'dark-plus', etc.
+
+        document.querySelectorAll('pre code[class^="language-"]').forEach(el => {
+            const lang = el.className.replace('language-', '');
+            const code = el.textContent;
+            try {
+                const html = highlighter.codeToHtml(code, { lang });
+                el.parentElement.outerHTML = html; // replace <pre><code> with styled HTML
+            } catch (e) {
+                console.warn("Shiki couldn't highlight:", lang, e);
+            }
+        });
+    })();
+</script>
