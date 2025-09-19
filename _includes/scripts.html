@@ -1,8 +1,17 @@
-<script src="https://unpkg.com/shiki/dist/browser.js"></script>
+<script src="https://unpkg.com/shiki/dist/index.unpkg.iife.js"></script>
 <script>
-  const highlighter = await shiki.getHighlighter({ theme: 'nord' })
-  const code = `console.log("hello")`
-  document.querySelector('#out').innerHTML = 
-    highlighter.codeToHtml(code, { lang: 'js' })
+(async () => {
+  const highlighter = await shiki.getHighlighter({ theme: 'github-dark' });
+
+  document.querySelectorAll('pre code[class^="language-"]').forEach(el => {
+    const lang = el.className.replace('language-', '');
+    const code = el.textContent;
+    try {
+      const html = highlighter.codeToHtml(code, { lang });
+      el.parentElement.outerHTML = html;
+    } catch (e) {
+      console.warn("Shiki couldn't highlight:", lang, e);
+    }
+  });
+})();
 </script>
-<div id="out"></div>
