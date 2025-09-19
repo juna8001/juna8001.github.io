@@ -14,7 +14,7 @@ In games, it is often the case that we want a single thing to be blocked from mu
 
 Let's say we are building a platformer. We have a `PlayerMovement` class that handles the player character moving around. A simple version could look like this:
 
-```c#
+```csharp
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
@@ -42,13 +42,13 @@ It has a clear purpose: it reads the input and turns it into player character mo
 
 Now, let's say we want to disable player input when we open the pause menu. The first thing that comes to mind is using a simple boolean:
 
-```c#
+```csharp
 public bool isMovementBlocked;
 ```
 
 and then modifying input reading:
 
-```c#
+```csharp
 float move;
 bool jump;
 
@@ -79,7 +79,7 @@ When we get to 3, there is a problem: the pause menu unlocks movement, but we ar
 
 A common solution is to use multiple boolean values. We could have:
 
-```c#
+```csharp
 bool isPauseMenuOpened;
 bool isCutscenePlaying;
 
@@ -95,7 +95,7 @@ So, what would be a more elegant solution?
 
 My solution was to create a `Blockable` class (still looking for a better name). It looks like this:
 
-```c#
+```csharp
 public class Blockable
 {
     public bool IsBlocked => _counter > 0;
@@ -118,7 +118,7 @@ It uses a hidden counter to track the number of blocks applied to a `Blockable`.
 
 With this, we can create a field in our `PlayerMovement` class:
 
-```c#
+```csharp
 public Blockable blockable;
 ```
 
@@ -128,7 +128,7 @@ This is great for when we are sure we will only call those methods in pairs — 
 
 The simple implementation above works great when we have a linear flow of things happening. It works especially well with async methods, for example with the UniTask package:
 
-```c#
+```csharp
 blockable.AddBlock();
 try
 {
@@ -150,7 +150,7 @@ But simple flows like that are rare in games. Very often we rely on events that 
 
 If `Blockable` is something we can block, the `Blocker` class represents a single source of block. It looks like this:
 
-```c#
+```csharp
 public class Blocker
 {
     public readonly Blockable Blockable;
@@ -185,7 +185,7 @@ public class Blocker
 
 I also like to add a shortcut method to `Blockable`:
 
-```c#
+```csharp
 public Blocker CreateBlocker()
 {
     return new Blocker(this);
@@ -194,7 +194,7 @@ public Blocker CreateBlocker()
 
 Blockers are great because you don’t have to think too much — you create a separate instance of `Blocker` for each block reason and just call `Block()` and `Unblock()` when that reason changes state. It might look like this:
 
-```c#
+```csharp
 public class SampleClass : MonoBehaviour
 {
     public PlayerMovement movement;
@@ -226,7 +226,7 @@ One more change I like to include in my `Blockable` class is the `OnBlockChanged
 
 The final version of a minimal `Blockable` for me looks like this:
 
-```c#
+```csharp
 public class Blockable
 {
     public bool IsBlocked { get; private set; }
