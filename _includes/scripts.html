@@ -1,3 +1,11 @@
 <!-- Scripts at the bootom of the page body -->
 
 <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+<script>
+    document.querySelectorAll('pre code').forEach((block) => {
+        const pre = block.parentNode;
+        if (!pre.classList.contains('line-numbers')) pre.classList.add('line-numbers');
+        if (![...block.classList].some(c => c.startsWith('language-'))) block.classList.add('language-js'); // default
+    });
+</script>
